@@ -213,6 +213,8 @@ written in English.
 9. Sustainability, Triple Bottom Line and the PESTLE Approach im Business
    Models
 
+10. From P-TRIZ to Business TRIZ
+
 More themes: 
 - Case Management Model and Notation (CMMN)
 - Decision Model and Notation (DMN)
