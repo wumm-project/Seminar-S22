@@ -57,6 +57,12 @@ written in English.
   <https://hg-graebe.de/EigeneTexte/DAT-20-en.pdf>
   * Enlarged German version: <http://dx.doi.org/10.14625/graebe_20200519>
 
+* Hans-Gert Gräbe (2022a). Systems and systemic development in TRIZ.
+  <https://hg-graebe.de/EigeneTexte/TFC2022-en.pdf>
+  
+* Hans-Gert Gräbe (2022b). On some aspects of TRIZ flow analysis.
+  <https://hg-graebe.de/EigeneTexte/TRIZfest-2022.pdf>
+
 * Innovation management - Fundamentals and terminology (ISO 56000:2020).
 
   Available in the HTWK Library.  
@@ -204,6 +210,9 @@ written in English.
 
     __Literature:__ (Ford, Mouzas 2013)
 
+9. Sustainability, Triple Bottom Line and the PESTLE Approach im Business
+   Models
+
 More themes: 
 - Case Management Model and Notation (CMMN)
 - Decision Model and Notation (DMN)
@@ -221,12 +230,13 @@ More themes:
   - Introduction to the seminar topic. Discussion of the seminar plan. (Gräbe)
 
 - 26.04.
+  - Presentation and discussion of (Graebe 2022a)
 
 - 03.05.
 
 - 10.05.
 
-- 18.05. no seminar
+- 18.05. No seminar
 
 - 24.05.
 
