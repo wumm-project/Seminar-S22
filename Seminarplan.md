@@ -57,11 +57,6 @@ written in English.
   <https://hg-graebe.de/EigeneTexte/DAT-20-en.pdf>
   * Enlarged German version: <http://dx.doi.org/10.14625/graebe_20200519>
 
-* Hans-Gert Gräbe, Ken Pierre Kleemann (2020c).  Seminar Systemtheorie (in
-  German). Universität Leipzig. Wintersemester 2019/20.  Rohrbacher
-  Manuskripte, Heft 22.  Book on Demand 2020. ISBN 9783752620023.
-  * Open Access: <https://nbn-resolving.org/urn:nbn:de:bsz:15-qucosa2-748430>
-
 * Innovation management - Fundamentals and terminology (ISO 56000:2020).
 
   Available in the HTWK Library.  
@@ -94,10 +89,6 @@ written in English.
   International Conference, BPM 2020 Proceedings. pp. 349-367.
   <https://eprints.qut.edu.au/201691/>
 
-* Georgi P. Shchedrovitsky (1981). Principles and General Scheme of the
-  Methodological Organization of System-Structural Research and Development.
-  <https://wumm-project.github.io/Texts/Shchedrovitsky/Principles-1981-en.pdf>
-
 * Georgi P. Shchedrovitsky (2014). Selected Works. A Guide to the Methodology
   of Organisation, Leadership and Management. In: Khristenko, Reus, Zinchenko
   et al. Methodological School of Management. Bloomsbury Publishing.  ISBN
@@ -107,7 +98,7 @@ written in English.
   <https://ebookcentral.proquest.com/lib/leip/detail.action?docID=6159470>
   
 * C.U. Smith, L.G. Williams, L.G. (2000). Software Performance Antipatterns.
-  In Proceedings oft he 2nd Internaional Workshop on Software and Performance.
+  In Proceedings of the 2nd Internaional Workshop on Software and Performance.
   ACM, New York, USA, pp. 127-136.
 
 * Ian Sommerville (2015). Software Engineering.  Chapter 19 „Systems
@@ -156,40 +147,20 @@ written in English.
 
 ## Seminar themes:
 
-1. Recent Advances in Business TRIZ
+1. Comparison of central terms of Business TRIZ and the APQC Process
+   Classification Framework
 
-   __Goal:__ TRIZ is a contradiction oriented systemic innovation framework.
-   Business TRIZ applies the general TRIZ approaches to resolve contraditions
-   to business systems and business process landscapes. The main advances in
-   the Conferences "Business TRIZ Online" 2021 and 2022 should be presented
-   and discussed.
-   
-   __Literature:__ (Souchkov 2010), (Souchkov 2014),
-   <http://www.biztriz.net/news.html>
+2. Comparison of the process models of Business TRIZ and Maturity Models   
+   - Process and Enterprise Maturity Model - Michael Hammer
+   - Business Process Maturity Model (BPMM) by Bill Curtis and John Alden
+   - Business Process Modelling und TRIZ
 
-2. Notational differences between SCOR and APQC PCF
+3. The systematic innovation process of Business TRIZ.
 
-   __Goal:__ APQC PCF, the APQC Process Classification Framework, is an
-   industrial grade notational and classification framework for business
-   processes that is in widespread use in particular in the anglo-saxonian
-   world to support the conceptualisation of intra-company processes. SCOR,
-   the Supply Chain Operations Reference Model, on the other hand ... 
+4. Inventive Business Standards. Comparison with classic TRIZ.
 
-   __Literature:__ (APQC), (APICS SCOR 2017), additional recherche required
-
-3. The concept of mental activity in the Work of G.P. Shchedrovitsky
-
-   __Goal:__ tba.
-   
-   __Literature:__ (Shchedrovitsky 2014)
-
-4. The concept of management and leadership in the Work of G.P. Shchedrovitsky
-
-   __Goal:__ tba.
-   
-   __Literature:__ (Shchedrovitsky 2014)
-
-5. Process Improvement Patterns. Exploitative and Explorative Business Process Improvements
+5. Process Improvement Patterns. Exploitative and Explorative Business Process
+   Improvements
 
    __Goal:__ The aim of all analytical efforts to verbalise business processes
    is to improve them through targeted systemic transformations. _Systemic_
@@ -204,7 +175,8 @@ written in English.
 
    __Literature:__ (Rosemann 2020), (Lindskog 2018)
 
-6. Business Innovation in ISO 56000:2020.
+6. Comparison of central terms of Business TRIZ and Business Innovation along
+   ISO 56000:2020.
 
    __Goal:__ ISO 56000 "Innovation management – Fundamentals and vocabulary"
    is a newly (in 2020) adopted international standard in which terms and
@@ -215,21 +187,7 @@ written in English.
 
    __Literature:__ ISO 56000
 
-7. Sustainable Business Model Patterns and Anti-Patterns
-
-   __Goal:__ The integration of sustainable goals into business models is of
-   high importance to meet the key challenges of today's society, such as
-   climate change, social justice and resource scarcity. To this end,
-   companies are increasingly resorting to reflect their business model in
-   terms of economic, ecological and social responsibility. Business model
-   patterns can support this by identifying proven and applicable solutions
-   and by helping to identify potential for improvement.  In addition,
-   anti-patterns, which represent solutions that are known to have
-   shortcomings, can be used to design business models.  An overview of
-   existing sustainable business model patterns and anti-patterns has to be
-   developed based on a systematic literature review.
-
-   __Literature:__ (Lüdeke-Freund et al. 2018)
+7. Sociocracy 3.0 and Business Model Patterns
 
 8. Service Oriented Business Process Management
 
@@ -247,15 +205,10 @@ written in English.
     __Literature:__ (Ford, Mouzas 2013)
 
 More themes: 
-- Process and Enterprise Maturity Model - Michael Hammer
-- Business Process Maturity Model (BPMM) by Bill Curtis and John Alden
-- Business Process Modelling und TRIZ
 - Case Management Model and Notation (CMMN)
 - Decision Model and Notation (DMN)
-- TRIZ Business Navigator <https://sites.google.com/view/trizbm/>
-- Gassmann on Business Models
-  - Oliver Gassmann, Karolin Frankenberger, Michaela Csik (2013). The
-    St. Gallen Business Model Navigator
+- TRIZ Business Navigator <https://sites.google.com/view/trizbm-en/>
+- Gassmann on Business Models (Gassman et al. 2020)
 - Osterwalder on Business Models
   - A. Osterwalder (2011) Business model generation
 - How to hold strategic sessions via TRIZ tools (A. Kozhemyako)
@@ -266,3 +219,27 @@ More themes:
 
 - [19.04.] Kick-off Meeting
   - Introduction to the seminar topic. Discussion of the seminar plan. (Gräbe)
+
+- 26.04.
+
+- 03.05.
+
+- 10.05.
+
+- 18.05. no seminar
+
+- 24.05.
+
+- 31.05.
+
+- 07.06.
+
+- 14.06.
+
+- 21.06.
+
+- 28.06.
+
+- 05.07. Data Week
+
+- 12.07. 
