@@ -45,14 +45,23 @@
 * Clemens Szyperski (2002). Component Software. Pearson Education. 2. Auflage.
   ISBN 0201745720.
 
-## April 7: Introduction. Concept of technology
+## April 7: Introduction. 
+
+__Learning Objective:__
+- On the development of technology and socio-technical structures in the
+  industrial age
+- On the relation of science, humanities and technology
+- Four controversial theses
+
+__Slides:__
+* [Introduction](Intro.pdf)
+
+## April 14: Concept of technology. Systems and their Development
 
 __Learning Objective:__ The concept of technology as a unit of 
 * socially available processual knowledge,
 * institutionalised procedures (state of the art) and
 * private processual skills
-
-## April 14: Systems and their Development
 
 __Literature__: (Gräbe 2020-1), (Gräbe 2020-2), (Gräbe 2020-3)
 
