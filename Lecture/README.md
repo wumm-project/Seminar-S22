@@ -39,11 +39,11 @@
   kultureller Wandel und die neue soziale Wirklichkeit (in German). In:
   zeitenblicke 5 (2006), Nr.~3.
   - <http://www.zeitenblicke.de/2006/3/Schetsche>
-* Ian Sommerville (2015). Software Engineering. 10th edition.
+* Ian Sommerville (2015). Software Engineering. 
   - <http://iansommerville.com/software-engineering-book/>
 * Felix Stalder (2016). Kultur der Digitalität (in German). Suhrkamp.
-* Clemens Szyperski (2002). Component Software. Pearson Education. 2. Auflage.
-  ISBN 0201745720.
+* Clemens Szyperski (2002). Component Software. Pearson Education. 2nd
+  edition.  ISBN 0201745720.
 
 ## April 7: Introduction. 
 
@@ -89,6 +89,11 @@ __Learning Objectives:__
 * Development of a system. Ideal line and real line of development.
 * Immersive and submersive concept of a system.
 * The Earth system and its global metabolism
+
+__Slides:__
+* [Technology](Technik.pdf)
+* [System Notion and Development](SystemNotion.pdf)
+* [Immersive and Submersive Systems](ImmersiveSubmersive.pdf)
 
 ## April 21: Systems and Sustainability
 

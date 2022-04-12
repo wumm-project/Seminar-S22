@@ -1,0 +1,1177 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{ls}
+\usepackage[english]{babel}
+
+\setlist{noitemsep}
+
+\title{Systems, Organisations, Management}  
+
+\newcommand{\Merksatz}[1]{
+  \begin{center}
+    \fbox{\fboxsep12pt \fbox{\parbox{.9\textwidth}{\textbf{Remember:} #1}}}
+  \end{center}
+}
+
+\author{Hans-Gert Gr\"abe}
+\date{April 12, 2022}
+
+\begin{document}
+\maketitle
+
+\section{Once more about the Goal of the Seminar}
+
+Systematic innovation methodologies such as TRIZ are essentially based on a
+better understanding of the development dynamics of corresponding (technical
+and non-technical) \emph{systems}.  The results are rooted in engineering
+experience from structured processes of planning, implementation and operation
+of technical systems. Increasingly, cooperative interdisciplinary
+collaboration matters rather than the one brilliant mind that commands
+thousand hands. The \emph{socio-technical character} of contradictions is
+thereby intensified and opens up new dimensions of contradiction management.
+
+Today, managers face similar challenges when it comes to placing
+decision-making processes on a systematic basis, aligning the processes with
+long term goals, and also achieving the targeted goal corridors.  It turns out
+that many engineering experiences on structured procedures in contradictory
+requirement situations can be transferred to this area, which has been
+investigated within the topic \emph{TRIZ and Business} for 20 years.
+
+Nevertheless, experiences and approaches based on systemic concepts are deeper
+rooted in science and also have much longer historical traditions.  \emph{In
+  the seminar}, we want to study different aspects of such concepts more
+closely, with special emphasis on cooperative approaches in interdisciplinary
+contexts.
+
+\section{What is a System?}
+
+Operation and use of technical systems is a central element of today world
+changing human practices. For this purpose planned and coordinated action
+along a division of labour is necessary, because exploiting the benefit of a
+system requires its operation. Conversely, it makes little sense to operate a
+system that is not being used. Closely related to this distinction between
+definition and call of a function, well known from computer science, is the
+distinction between design time and runtime, that is even more important in
+the real-world use of technical systems – during design time, the principal
+cooperative interaction is planned, during the runtime the plan is
+executed. For technical systems one has to distinguish the description,
+interpersonally communicated as justified expectations, and the results of
+operation, interpersonally communicated as practical experience.
+
+Most definitions grasp the term \emph{system} as a delimited set of
+interacting components, whereby the interaction of the components gives rise
+to a unified whole, which realises an emergent function and is thus more than
+the sum of its parts.
+\begin{quote}
+  A \emph{system} (lat. greek "system", "composed", a whole consisting of
+  parts; connection) is a set of elements that are interconnected and interact
+  with each other, forming a unified whole that possesses properties that are
+  not already contained in the constituent elements considered individually.
+  \cite{Petrov2020}
+
+  A \emph{system} is a set of elements that are in relationship and connection
+  with each other and that constitute a well defined unity, an integrity. The
+  necessity of the use of the term "system" occurs when it is required to
+  emphasize that something is large, complex, immediately not wholly
+  comprehensible, but at the same time a unified whole. Unlike the notions
+  "set" or "aggregate", the concept of a system emphasizes the ordering, the
+  integrity, the regularity of construction, functioning and development.
+  \cite{TOP}
+
+  Systems Engineering "is an interdisciplinary field of engineering and
+  engineering management that focuses on how to design, integrate, and manage
+  complex systems over their life cycles. At its core, systems engineering
+  utilizes systems thinking principles to organize this body of knowledge. The
+  individual outcome of such efforts, an engineered system, can be defined as
+  a combination of components that work in synergy to collectively perform a
+  useful function." (English Wikipedia).
+\end{quote}
+The second definition also points to the purpose of systemic delimitations --
+it is about making complex relationships accessible to description by reducing
+them to essentials.
+
+In all these definitions, the \emph{structuredness} and thus
+\emph{decomposability} of the system in the analytic dimension is emphasised
+on the one hand, and the \emph{interdependence} and thus
+\emph{indecomposability} in the execution dimension on the other. This
+corresponds to the practical experience of the engineer when she assembles a
+system from individual components -- the system is only viable when it is
+assembled. In the assembled system in addition to the components, the
+\emph{connecting elements} also play an important role.  They mediate the
+\emph{flow of energy, material and information} that is required for the
+operation of each component. In component software \cite{Szyperski2002}, with
+\emph{deployment}, \emph{installation} and \emph{configuration} three stages
+of preparing components for their operation in a systemic context are
+distinguished, and this preparation for operation is often considered as a
+separate state -- for example, as \emph{maintenance mode} different from the
+\emph{operation mode}.
+
+The aspect of operating a system did not play a role in the first two
+definitions.  Only here, however, the dialectical interrelationship between
+decomposability and indecomposability comes to light: Viable components
+deliver processual services in \emph{guaranteed} quantity and quality during
+operation, if the \emph{external operational conditions} are guaranteed.
+These processual services of the components in combination form the emergent
+function of the overall system. The self-similarity of the concept is obvious:
+components themselves have an inner life that can be described systemically,
+but which is largely abstracted from at the level of the overall system. The
+component enters the description of the dynamics of the overall system only as
+Black Box with a precise specification.  This specification is divided into
+input and output interfaces.  The former describe the necessary operating
+conditions, the latter the performance parameters of the respective component.
+
+In \cite{Graebe2020} the system concept is identified as descriptional
+focusing to make real-world phenomena accessible for a description by
+reduction to the essentials.  Such a reduction focuses on the following three
+dimensions:
+\begin{itemize}
+\item[(1)] Outer demarcation of the system against an \emph{environment},
+  reduction of these relationships to input/output relationships and
+  guaranteed throughput.
+\item[(2)] Inner demarcation of the system by combining subareas to
+  \emph{components}, whose functioning is reduced to “behavioural control” via
+  input/output relations.
+\item[(3)] Reduction of the relations in the system itself to “causally
+  essential” relationships.
+\end{itemize}
+Further, it is stated that such a reductive description (explicitly or
+implicitly) exploits output from prior life:
+\begin{itemize}
+\item[(1)] An at least vague idea about the (working) input/output services of
+  the environment.
+\item[(2)] A clear idea of the inner workings of the components (beyond the
+  pure specification).
+\item[(3)] An at least vague idea about causalities in the system itself, that
+  precedes the detailed modelling.
+\end{itemize}
+
+\section{Systems, Components and Reuse}
+
+One important aspect, especially of technical systems, has not yet been taken
+into account in the considerations so far: the aspect of reuse. Reuse plays a
+central role in computer science -- copy/paste of code, outsourcing of
+repetitive pieces of code in function definitions, grouping of related
+function definitions in pre-compiled libraries, etc. This in no way exhausts
+possible forms of reuse, not to mention higher forms of reuse such as design,
+patterns or frameworks. Szyperski discusses in \cite[ch. 8]{Szyperski2002}
+aspects of the relationship between goals and forms of reuse.
+
+Hence in addition to the description and operation, for technical systems the
+aspect of reuse plays an important role. However, this does not apply, at
+least on the artifact level, to larger technical systems – these are unique
+specimen, even though assembled using standardised components. Also the
+majority of computer scientists is concerned with the creation of such unique
+specimens, because the IT systems that control such plants are also unique.
+
+Computer science has long struggled with a form of reuse that is widespread in
+developed engineering sciences and ultimately turned the manufacturing of
+tools and products from an art first to a craft and later to an industrial
+process -- the \emph{use of components produced by third parties} (components
+off the shelf).
+
+Thus, after the analytical and operational dimension of systems and
+components, the \emph{production by independent third parties} and hence the
+technical-economic interrelationships of an industrial mode of production
+based on the division of labour move into the focus of attention.
+
+In such a context, the concept of a technical system is fourfold overloaded.
+A technical systems can be considered
+\begin{itemize}
+\item [1.] as a real-world unique specimen (e.g. as a product or a service),
+\item [2.] as a description of this real-world unique specimen (e.g. in the
+  form of a special product configuration)
+\end{itemize}
+and for components produced in larger quantities also
+\newpage
+\begin{itemize}
+\item [3.] as description of the design of the system template (product
+  design) and
+\item [4.] as description and operation of the delivery and operating
+  structures of the real-world unique specimens of this system produced
+  according to this template (as production, quality assurance, delivery,
+  operational and maintenance plans).
+\end{itemize}
+The concept of a technical system thus has also in this context a clearly
+epistemic function of (functional) ``reduction to the essential''. To Einstein
+the recommendation is attributed ``to make things as simple as possible but
+not simpler''. The TRIZ development law of \emph{completeness of a system}
+expresses exactly this thought, however, not as a \emph{law}, but as an
+engineering \emph{modeling directive}. The apparent ``law'' of the observed
+dynamics therefore essentially addresses \emph{reasonable human action}.
+
+In an approach of ``reduction to the essential'' and ``guaranteed
+specification-compliant operation'' human practices are inherently built in,
+since only in such a context the terms ``essential'', ``guarantee'' and
+``operation'' can be filled with sense in a meaningful way. These essential
+terms from the socially determined practical relationship of people are deeply
+rooted in the concept generation processes of descriptions of special
+technical systems and find their ``natural'' continuation in the special
+social settings of a legally constituted societal system.
+
+\section{Socio-technical Systems}
+
+The last considerations already embed the concept of system in social
+practices of cooperatively acting people. This embedding is also present in
+TRIZ system definitions, when the emergent function realised by the system is
+considered as \emph{main useful function} MUF and linked to a \emph{purpose},
+why this (technical) system exists or was designed or redesigned in this way.
+This \emph{aspect of purposefulness} (Zweckmäßigkeit) plays only a subordinate
+role for "natural" systems, namely for socio-ecological systems, since in this
+context in most cases the "purposefulness" comes up against hard limits or
+causes massive problems or has even already caused them. Nevertheless, this
+\emph{orientation on purposes} is another throughput parameter (e.g. as
+monetary throughput) from a social environment relevant for the inner dynamics
+of a system.  It can ultimately be subsumed under the \emph{throughput of
+  information} if a sufficiently viable concept of information is taken as a
+basis. 
+
+This purposefulness transforms the totality of technical systems into an
+interconnected \emph{world of techical systems} full of preconditions and
+conditionalities, which opens up a fourth dimension of the concept of system,
+to secure stable operating conditions of the systems themselves.
+
+The self-similarity of the systems concept provides a solution for this
+challenge -- consider systems as components and the relations of
+purposefulness as interdependencies, delineate larger socio-technical systemic
+units, develop appropriate forms of description and operation. The
+transformation towards a sustainable mode of production and living that is on
+the agenda just requires a big step forward in this direction.  This is one of
+the objectives of management and hence in the primary focus of our seminar.
+However, socio-technical systems are, in addition to technical restrictions,
+charged with the contradictory expectations and interests of concrete people
+and groups of people.
+
+Ian Sommerville \cite{Sommerville2015} elaborates a number of challenges in
+this regard. He also starts with the concept of a goal-centered system.
+\begin{quote}
+  A \emph{system} is a meaningful set of interconnected components that work
+  together to achieve a specific goal.  \cite{Sommerville2015}
+\end{quote}
+Right after he develops a distinction between technical and socio-technical
+systems:
+
+\paragraph{Technical computer-based systems}
+are systems that contain hardware and software components, but not procedures
+and processes. ... Individuals and organisations use technical systems for
+specific purposes, but knowledge of that purpose is not part of the system.
+For example, the word processor I use does not know that I am using it to
+write a book.
+
+\paragraph{Socio-technical systems}
+contain one or more technical systems, but beyond that -- and this is crucial
+-- the knowledge of how the system should be used to achieve a broader
+purpose.  This means that these systems have \emph{defined work processes},
+\emph{human operators} as integral part of the system, are \emph{governed by
+  organisational policies} and are \emph{affected by external constraints}
+such as national laws and regulations.
+
+Essential characteristics of socio-technical systems:
+\begin{enumerate}
+\item They have special properties that affect the system as a whole, and are
+  not related to individual parts of the system. These special properties
+  depend on the system components and the relationships between them. Because
+  of this complexity, the system-specific properties can only be evaluated
+  when the system is composed.
+\item They are often not deterministic. The behaviour of the system depends on
+  the human operators and on other people who do not always react in the same
+  way. Also, the operation of the system can change the system itself.
+\item The extent to which the system supports organisational goals depends not
+  only on the system itself. It also depends on the \emph{stability of the
+    goals}, the relationships and \emph{conflicts between organisational
+    goals}, and how people in the organisation \emph{interpret those goals}.
+\end{enumerate}
+
+In this context, there is a clear shift on the scale of controllability from
+direct control by external human operators to indirect control and movement
+according to intrinsic laws, which is even more prevalent in
+\textbf{socio-economic systems} with a large number of stakeholders or even
+\textbf{socio-ecological systems}.
+
+\section{Shchedrovitsky on Systems Analysis}
+
+The system concept thus serves to delimit a part of the complex, all-connected
+world (hereafter \emph{reality}) in order to make this part accessible for
+description. However, this human activity, which Georgi Shchedrovitsky (a
+Russian Philosopher and the head of the \emph{Methodological School of
+  Management}) refers to as \emph{mental activity} \cite[p. 47]{MSM}, is
+itself part of that reality and thus also of practical relevance. Real-world
+processes are thereby charged with description forms. Thus in systems these
+two dimensions -- description and operation -- must therefore be
+distinguished. Charging a system with a description form is what Engels'
+calls, in reference to Kant's \emph{thing in itself}, the transformation of
+the \emph{thing in itself} into a \emph{thing for us}.
+
+Shchedrovitsky \cite[p. 80 ff.]{MSM} conceptualises this process in two
+different concepts of system \cite[pp. 89 and 98]{MSM} as process of breaking
+down the system into parts (components), charging the components with
+description forms and then reassembling the components thus charged into a
+whole.  The result is a \emph{new} system in the sense that it is the old one
+but charged with a description form.  In this way, the \emph{structural
+  organisation} of a system can be grasped.
+
+The real world and thus also systems develop and change over time. In order to
+understand the \emph{development of a system}, its \emph{processual
+  organisation} must be examined.  Shchedrovitsky emphasises that the
+development of a system can \emph{never} be described in its disassembled
+form, since disassembly destroys the systemic coherence. An aeroplane
+disassembled into its individual parts cannot fly, only an assembled one. We
+are dealing here with a fundamental epistemic contradiction.
+
+For details we refer to \cite{MSM}.
+
+\section{Theory of Dynamical Systems}
+
+\subsection{The Approach}
+
+The processual dimension of systems can be investigated with the mathematical
+tools of the Theory of Dynamical Systems if the processes can be modelled as
+equations of motion in phase space.
+
+The Theory of Dynamical Systems as a branch of mathematics investigates the
+dynamics of structurally defined and modelled systems. Attributes which are
+essential for the description of the system are combined into a \emph{phase
+  space} and the changes in the attribute values are described as
+\emph{equations of motion} by differential equations. If only temporal changes
+are considered, this leads to systems of \emph{Ordinary Differential
+  Equations} (ODE), complex spatio-temporal changes lead to Partial
+Differential Equations. We restrict ourselves to the first case, i.e. purely
+temporal structural changes.
+
+In the simplest case, such as the pendulum or the movement of two bodies in a
+homogeneous gravitaional field, a \emph{trajectory} can be calculated from the
+equations of motion.
+
+Examples:
+\begin{itemize}
+\item Pendulum: \url{https://en.wikipedia.org/wiki/Pendulum_(mechanics)}
+\item Two body problem: \url{https://en.wikipedia.org/wiki/Two-body_problem}
+\end{itemize}
+
+\subsection{Model and Reality}
+
+However, the solution of this equations only describes the motion $m(t)$ in
+the model. Good modelling is characterised by the fact that the real movement
+$f(t)$ and the movement $m(t)$ according to the model differ only
+insignificantly $r(t)=f(t)-m(t)$ in practically relevant parameter ranges (the
+\emph{context of observation}). This can only be verified empirically through
+experiments that are to be planned more or less precisely, since reality is
+only accessible empirically.
+
+Particularly interesting are modellings in which the residual $r(t)$ decreases
+"by itself". Such systems strive towards an equilibrium, which structure can
+be derived from the model.
+
+\subsection{How Chaotic can Trajectories be?} 
+
+Examples: 
+\begin{itemize}
+\item Double Pendulum, \url{https://en.wikipedia.org/wiki/Double_pendulum}
+\item Magnetic pendulum with three attracting magnets,
+\item 3-body model: \url{https://en.wikipedia.org/wiki/Three-body_problem}
+\end{itemize}
+
+We see that there is apparent stability for a long time, but in phase space
+there are certain \emph{areas of instability} in which (exactly calculable!)
+trajectories passing through points in phase space that are close to each
+other strongly diverge. Such locations are called \emph{bifurcations}.  Often
+there is a single phase parameter that makes this bifurcation particularly
+clear. Such a bifurcation on a one-dimensional scale is also called a
+\emph{tipping point}.
+
+Not everything that looks like chaos has to be chaotic:\\
+\url{https://i.redd.it/zr7tet9mdfl01.gif}
+
+\subsection{Attractors}
+
+How complicated can an equilibrium position be? 
+
+Examples: 
+\begin{itemize}
+\item Pendulum,
+\item pendulum with three attracting magnets,
+\item pendulum with one repelling magnet.
+\end{itemize}
+
+Limit cycles: \url{https://en.wikipedia.org/wiki/Limit_cycle}
+
+When the body is on the limit cycle, it remains there, i.e. the limit cycle is
+a \emph{stable solution} of the equations of motion of the system, called
+\textbf{steady-state equilibrium}.
+    
+In many cases the real movement $f(t)$ in time is \emph{attracted} by that
+limit cycle, i.e. $f(t)$ can be decomposed into $f(t)=l(t)+r(t)$ with $l(t)$
+the projection on the limit cycle and $r(t)$ a (small) orthogonal deviation.
+In this way, it is often possible to simplify complicated models.
+
+An attractor is a specific steady-state equilibrium with just this attracting
+property.
+
+More precisely: Let $f(t,a)$ be a function which specifies the dynamics of the
+system with starting point $f(0,a)=a$. An \textbf{attractor} is a subset $A$
+of the phase space characterized by the following three conditions:
+\begin{itemize}
+\item $A$ is forward invariant under $f$: if $a$ is an element of $A$ then so
+  is $f(t,a)$, for all $t > 0$.  
+\item There exists a neighborhood of $A$, called the basin of attraction for $A$
+  and denoted $B(A)$, which consists of all points $b$ that "enter $A$ in the limit
+  $t\to\infty$". 
+\item There is no proper (non-empty) subset of $A$ having the first two
+  properties.
+\end{itemize}
+
+Attractor as stable solution of the corresponding system of ODE\\
+\url{https://en.wikipedia.org/wiki/Attractor}
+
+\paragraph{On the importance of "stable" cyclical processes in nature.}
+We are able to perceive such \emph{approximately} repeating patterns in
+natural processes (i.e. attractors), i.e.  perform such a reduction also
+independently of mathematical abilities.
+
+For given (deterministic) equations of motion one can compute the geometry of
+such an attractor as \emph{global deterministic} invariant of the equations of
+motion.
+
+\paragraph{How Complicated can an Attractor be?}
+\begin{itemize}
+\item \url{https://en.wikipedia.org/wiki/Attractor}
+\item \url{https://en.wikipedia.org/wiki/Lorenz_system}
+\item \url{https://de.wikipedia.org/wiki/Lorenz-Attraktor}
+\item Attention, with the numerical methods used there for visualisation it is
+  difficult to distinguish whether they are calculating a chaotic trajectory
+  or really the attractor, which is a \emph{global} artefact.
+\item "Almost all initial points will tend to an invariant set – the Lorenz
+  attractor – a strange attractor, a fractal, and a self-excited attractor"
+  (Wikipedia)
+\end{itemize}
+
+\subsection{Dissipative Systems}
+
+Closed and Open Systems. Previous investigations were directed towards the
+inner dynamics of an autonomous, i.e. closed system.
+
+Importance of a (stable) throughput of energy, matter and information for the
+inner structure formation in systems.
+
+\begin{itemize}
+\item Self-organisation in dissipative structures
+  \begin{itemize}
+  \item \url{https://en.wikipedia.org/wiki/Rayleigh-Bénard_convection}
+  \item \url{https://en.wikipedia.org/wiki/Belousov-Zhabotinsky_reaction}
+  \end{itemize}
+\item Dissipative systems
+  \url{https://en.wikipedia.org/wiki/Dissipative_system} 
+\item Life on Earth as a dissipative system.
+\end{itemize}
+
+\section{Organisations as Systems}
+
+A special kind of socio-technical systems (see the definition above) are
+systems that produce or use technical systems, see the definition of
+technology in the VDI norm 3780 \cite{VDI}.  To manage such systems it is
+particularly important to apply systematic innovation methodologies such as
+TRIZ better to understand their development.  The theoretical corpus that
+emerges in such studies is rooted in engineering and managerial experience
+from structured processes of planning, implementation and operation of such
+systems. Increasingly, cooperative interdisciplinary collaboration matters
+rather than the one brilliant mind that commands thousand hands. The
+\emph{socio-technical character} of contradictions is thereby intensified and
+opens up new dimensions of contradiction management.
+
+In the seminar we are particularly interested to shed more light on the
+connection between the concepts of system and such (social) organisations.
+\textbf{Social organisations} such as companies, associations, projects,
+unions, parties, governments, states ... are undoubtedly theoretically
+delimitable and practically delimited parts of reality with outwardly (and
+inwardly) directed goals and purposes whose internal structure and dynamics
+are driven by an external throughput of energy, material and information, and
+which can therefore be studied from a systemic perspective.
+
+The external throughput of energy, material and information is usually not in
+the focus of consideration, as these throughputs are already mentally charged
+in language form in a \textbf{more complex social context} and in the form of
+interests, needs, monetary flows and power relations. Nevertheless, a systemic
+structure is clearly recognisable, which is to be worked out in various
+theoretical approaches that we will look at in more detail. In particular, the
+concepts of \emph{action space} and \emph{cooperative action} in such spaces
+will be conceptualised in more detail.
+
+\section{Leadership and Management}
+
+\emph{Management} is an essential form of influencing the dynamics and
+development of organisations. Shchedrovitsky emphasises that one can only
+manage something that is in motion\footnote{"Management is only possible if
+  the object we manage is in motion, self-propulsion. Management is the use of
+  this self-propulsion by managers for their own purposes." \cite[p. 28]{MSM}}
+and that there is no need for management if there are no problems.
+
+In the previous semester, we had already considered the topic by studying
+different theoretical approaches to management.  Most of them assumed a
+manager as a single leader and developed approaches and patterns of how
+persons in such a \emph{role} can develop leadership in achieving given goals.
+If we project such approaches onto a systemic concept of development in
+contradictions, there seems to be a recurring central contradiction between
+the goals of the organisation and the goals and interests of the people
+involved in realising them.
+
+However, such leadership principles have been under massive pressure for at
+least 20 years, as they have only limited effect in modern contexts of action
+in interdisciplinary teams. Even more, they presuppose the authorised
+individual leader who combines management and leadership in one person. In
+multi-stakeholder contexts such as socio-cultural or socio-ecological systems,
+even this prerequisite is not given.
+
+In this context, Shchedrovitsky clearly distinguishes between the notions of
+\emph{management} and \emph{leadership} \cite[p. 27-30]{MSM} and shows to what
+extent a new principal is confronted with contradictory challenges of both
+concepts.
+
+\section{Systemic Management Basics}
+
+In the further course of the seminar we want to discuss the systemic
+development of social organisations in the unity and difference of
+\emph{planned action} and \emph{experienced results} in the light of different
+theoretical approaches.
+
+This requires a concept of \emph{action planning}, based on a \emph{conceptual
+  understanding} of the process landscape within and around the organisation
+in an appropriate explicit form of description and \emph{intelligible
+  operational actions}.
+
+The formulated intelligible actions -- the \emph{plan} -- is in
+\emph{contradictory tension} with the processes actually taking place: On the
+one hand, it has a controlling effect on these practices, on the other hand,
+those practices partially resist this control.
+
+This difference must be fed back to the planning process as an
+\emph{evaluation of experienced results} in order to keep also the divergence
+between plan and reality under control.
+
+Relating planning and experience dimension is only possible on a language
+level and requires a \emph{system of notions} to accompany the practical
+real-world development by a discursive process (as \emph{practice of thinking}
+in the unity and difference of \emph{pure thought} and \emph{mental activity}
+as explained in \cite[p. 33-51]{MSM}).
+
+This system of concepts is more stable than the real-world practices, but it
+is not static -- it develops together with the practices.
+\textbf{\emph{World} is \emph{reality for us} and thus reality in the process
+  of conceptual grasping.}
+
+These basic considerations are about \emph{processes} and \emph{procedures}
+within an \emph{organisation}.
+
+\section{Organisations}
+
+What is an organisation? Wikipedia distinguises between formal aud informal
+organisations. 
+
+\paragraph{Formal organisations.}
+\begin{quote}
+  An organisation that is established as a \emph{means for achieving defined
+    objectives} has been referred to as a formal organisation. Its design
+  specifies how \emph{goals are subdivided and reflected} in subdivisions of
+  the organisation. Divisions, departments, sections, positions, jobs, and
+  tasks make up this work structure. Thus, the formal organisation is expected
+  to \emph{behave impersonally} in regard to relationships with clients or
+  with its members. [...] A \emph{bureaucratic structure} forms the basis for
+  the appointment of heads or chiefs of administrative subdivisions in the
+  organisation and endows them with the authority attached to their position.
+  (Wikipedia, my emphasis)
+\end{quote}
+See about the "impersonality" and also the "automaton" in the quote by Marx in
+my first lecture.
+
+\paragraph{Informal organisations.}
+\begin{quote}
+  [...] The informal organisation expresses the personal objectives and goals
+  of the individual membership. Their objectives and goals may or may not
+  coincide with those of the formal organisation. [...] (Wikipedia)
+\end{quote}
+The further explanations in Wikipedia remain weak and contradictory.
+Structure-building processes and especially shared conceptual systems also
+develop in informal organisations, with exciting new structuring processes
+of co-operative action taking place that are of particular interest to us in
+the seminar. Wikipedia is a reflection of the weakness of the conceptual basis
+in this field.
+
+Also ORG -- the \emph{organisation ontology of the W3C} \cite{vocab-org} --
+considers \texttt{org:OrganisationalUnit}, \texttt{org:FormalOrganization} and
+\texttt{org:OrganizationalCollaboration} as subconcepts of the concept
+\texttt{org:Organization} but does not mention informal organisations.  In
+their definition an organisation
+\begin{quote}
+  represents a collection of people organized together into a community or
+  other social, commercial or political structure. The group has some common
+  purpose or reason for existence which goes beyond the set of people
+  belonging to it and can act as an Agent. Organisations are often
+  decomposable into hierarchical structures.~\cite{vocab-org}
+\end{quote}
+
+\texttt{org:Organization} is related to \texttt{foaf:Agent}, 
+\begin{quote}\raggedright
+  ... the class of agents; things that do stuff. A well known sub-class is
+  \texttt{foaf:Person}, representing people. Other kinds of agents include
+  \texttt{foaf:Organization} and \texttt{foaf:Group}. \cite{foaf}
+\end{quote}
+
+A \texttt{foaf:Group}
+\begin{quote}
+  ... represents a collection of individual agents (and may itself play the
+  role of a Agent, i.e. something that can perform actions).
+
+  This concept is intentionally quite broad, covering informal and ad-hoc
+  groups, long-lived communities, organisational groups within a workplace,
+  etc. ...
+  
+  While a Group has the characteristics of a Agent, it is also associated with
+  a number of other Agents (typically people) who constitute the Group, its
+  members. ...  The basic mechanism for saying that someone is to use the
+  member property of the Group to indicate the agents that are members of the
+  group.
+\end{quote}
+The terms Agent and Group thus introduce self-similar concepts of structures
+that are \emph{capable of action}. This corresponds to the legal construction
+of a \emph{juridical subject} (juristisches Subjekt) in the sense of the Civil
+Code (BGB) if \emph{responsibility for the consequences of action} is added.
+
+\section{Organisations as Socio-Technical Systems}
+
+While in the Wikipedia definition positions, jobs and tasks are mentioned, but
+beyond bureaucracy no people, in this definition an organisation is a
+"community of people". However, it has a goal that does not result from the
+set of goals of the people involved, but is an emergent function of the
+organisation -- the whole is more than the sum of its parts in the sense that
+relational synergy effects are of special importance in such an organisation.
+
+This corresponds closely with the \emph{system concept} developed so far:
+\begin{quote}
+  A \emph{system} is a \emph{delimited set of elements} (components, objects,
+  resources) that are interconnected and interact with each other. Their
+  interaction realises a \emph{qualitatively new function} (emergent function)
+  and thus constitutes a \emph{new unified whole}.
+
+  A system has a \emph{structural} and an \emph{operational} dimension which
+  are in contradictory dialectical relation of decomposability and
+  indecomposability.
+
+  The \emph{operation of a system} requires a qualitatively and quantitatively
+  defined throughput of energy, material and information.
+\end{quote}
+
+Ian Sommerville \cite{Sommerville2015} also starts with the concept of a
+system and moves from there to the concept of \emph{organisation}.
+\begin{quote}
+  A system is a meaningful set of interconnected components that work together
+  to achieve a specific goal.  \cite{Sommerville2015}
+\end{quote}
+Right after that comes a distinction between technical and socio-technical
+systems:
+
+\paragraph{Technical computer-based systems}
+are systems that contain hardware and software components, but not procedures
+and processes. ... Individuals and organisations use technical systems for
+specific purposes, but knowledge of that purpose is not part of the system.
+For example, the word processor I use does not know that I am using it to
+write a book.
+
+\paragraph{Socio-technical systems}
+contain one or more technical systems, but beyond that -- and this is crucial
+-- the knowledge of how the system should be used to achieve a broader
+purpose.  This means that these systems have \emph{defined work processes},
+\emph{human operators} as integral part of the system, are \emph{governed by
+  organisational policies} and are \emph{affected by external constraints}
+such as national laws and regulations.
+
+Essential characteristics of socio-technical systems:
+\begin{enumerate}
+\item They have special properties that affect the system as a whole, and are
+  not related to individual parts of the system. These special properties
+  depend on the system components and the relationships between them. Because
+  of this complexity, the system-specific properties can only be evaluated
+  when the system is composed.
+\item They are often not deterministic. The behaviour of the system depends on
+  the human operators and on other people who do not always react in the same
+  way. Also, the operation of the system can change the system itself.
+\item The extent to which the system supports organisational goals depends not
+  only on the system itself. It also depends on the \emph{stability of the
+    goals}, the relationships and \emph{conflicts between organisational
+    goals}, and how people in the organisation \emph{interpret those goals}.
+\end{enumerate}
+
+In this context, there is a clear shift on the scale of controllability from
+direct control (technical systems) to indirect control (socio-technical
+systems), which in \textbf{socio-economic systems} with a large number of
+stakeholders or even \textbf{socio-ecological systems} shifts further in the
+direction of movement according to intrinsic laws ("natural processes").
+
+This relates to TRIZ principle 25 \emph{Exploit Self-Service Processes}, which
+counts as the mastery of engineering.  It claims that the best solution of a
+task is reached if the aspired goals are realised "by themselves".
+
+Ultimately, this means to resolve the contradiction between plan and
+realisation and to develop a form of description that brings the "natural"
+movement in a system according to its own laws in coherence with the human
+goals and needs.
+
+\section{Shchedrovitsky on Organisations}
+
+What is an organisation for Shchedrovitsky? In \cite[p. 30 ff]{MSM} he
+distinguishes three dimensions of that notion
+\begin{itemize}
+\item Organisational work
+\item Organisation as the result and means of organisational work
+\item Organisation as a form of life of the collective
+\end{itemize}
+
+\paragraph{Organisational work.}
+\cite[p. 26]{MSM} When we organise we collect something. Let us take a look at
+design. We need some structural elements, so there is a designer with a set of
+elements. We must collect these elements in a particular way, and we must
+establish some kind of connection and relations between them. When we are
+doing this sort of work we must impose some organisational form on these
+elements. [\ldots]
+
+And when we have done such work on the integration of the elements and the
+establishment between them of certain relations and connections, we stop this
+work, and then the whole, which we have organised, can begin to operate
+according to its laws. But its action according to its laws no longer belongs
+to organisational work.
+
+Organisers deal with a particular set of elements, collect elements of a
+certain type and form in particular quantities, combine them and set certain
+relations and connections between them. When they have done this and have thus
+created the structure of the organisation – and the structure is defined by
+the location of the elements and the type of connections and relations – they
+recede into the background, and this thing either remains dead or begins to
+operate according to its laws.
+
+\paragraph{Organisation as the result and means of organisational work.}
+\cite[p. 29]{MSM} Organisation as the result of organisational work can be
+regarded as both an \textbf{artificial entity} and as \textbf{naturally living
+  thing}.
+
+Who takes an artificial view of organisations? Organisers themselves. And
+those who design and create organisations always look at them as their own
+creations.  The organiser makes it, and in this sense organisations can be of
+any kind depending on the goals and objectives of the organiser. The main
+question is: why does the organiser create a particular organisation?
+[\ldots]
+
+The organisation acts here as an \textbf{artificial entity}. It has a purpose
+(Zweck) and can be considered, as can any structure, in terms of the functions
+that it, the organisation, must provide. So we are talking about the functions
+of the organisation, about the purpose of the organisation.  These are all
+characteristics that are seen from an artificial point of view.
+
+As a tool, as a means, \textbf{as an artificial entity, the organisation does
+  not and cannot have goals} (Ziele). Organisers can have goals. But for their
+goals, in relation to their goals, the organisations they create are a means,
+a means for them to achieve their goals.
+
+\paragraph{Organisation as a form of life of the collective.}
+\cite[p. 30]{MSM} The organisation has been created. And the organiser – a
+pure organiser, not a manager – has gone. The organisation has been created,
+and it has begun to live its own life. And then it turns out that, from a
+natural point of view, other goals may appear in this organisation – the goals
+of the collective, which was organised. Generally, something quite different
+begins, this \textbf{organisation begins to live its own life}. Then we
+[\ldots] must seek forms, methods, laws of the life of the groups and the
+collectives within organisations.
+
+When the organisation is seen from a natural viewpoint, it is not yet the
+means, but the \textbf{form}, the \textbf{condition} of the life of the
+collective (the people) who work in it.
+
+And it is even possible to see the organisation in the same way as we see the
+sunrise and sunset: the people working in it completely forget that the
+organisation was created by some other person to resolve particular
+objectives, achieve particular goals, for a particular purpose. It, this
+organisation, will be perceived by them like the movement of the heavenly
+bodies, as a natural condition of life.
+
+\section{Systematic Management in Organisations}
+
+The subject of \emph{systematic management} are socio-technical and especially
+socio-economic systems. The latter consist of economic units (companies,
+government, state, ... ) that are interconnected in a market-like manner. The
+\emph{world of economic units} has a systemic structure similar to the world
+of technical systems.
+
+In the understanding developed above, \textbf{management} therefore means to
+\emph{control} the processes taking place in the (living) organisation with
+the \emph{goal} to implement the \emph{purposes} of the organisation in an
+efficient way.
+
+This is necessary to be operated on several spatio-temporal levels (micro and
+macro processes), whereby short term goals and long term goals are in 
+contradictory tension. Therefore, management is usually divided into several
+relatively autonomous levels
+\begin{itemize}
+\item Strategic management
+\item Middle management
+\item Operational management
+\item Infrastructure management and support
+\end{itemize}
+which are themselves in systemic system-subsystem interrelations and thus in a
+co-evolutio\-nary relationship which is best processed via a control loop
+designed as a feedback loop.
+
+\subsection{Systematic Management and ISO 9000}
+
+Systematic management requires a descriptive approach to this control loop as
+part of the organisation's process model, such as given in the modified
+process model of ISO 9000:2008.
+\begin{center}
+  \includegraphics[width=.8\textwidth]{images/PM-ISO9000.png}\\ \textbf{Fig. 1:}
+  Control Loop in the Modified Process Model of ISO 9000
+\end{center}
+ISO 9000 is a set of general quality assurance standards to \textbf{assess}
+the process quality of enterprises. It is a descriptive standard and not
+directed towards improvement of process quality (although can be used for such
+an improvement in combination with other tools).
+\begin {itemize} 
+\item It is mainly a European standard.
+\item It is used mainly to assess the process quality of suppliers that
+  demonstrate with a ISO 9000 certificate their ability to produce in a
+  negotiated frame of time, costs and performance. 
+\item Set of standards for the proof of process quality for the creation as of
+  material so also of intangible products and services.
+\item Framework with a lot of leeway for corporate strategy and concrete
+  management goals.
+
+  Minimum requirements for a QM system according to ISO 9000: complete,
+  documented, known, verifiable, evolutionary
+\end {itemize}
+ISO 9000 contains minimum requirements for the structural and procedural
+organization, so that quality is not a coincidence, but the result of a
+controlled process.
+
+Note that the process model shown in fig. 1 is a \emph{standard model} at a
+higher language level (\textbf{meta-model}) than the respective process models
+of the individual organisations, but unlike the process model of a real-world
+organisation, it has no real-world instantiation. Such a phenomenon is well
+known in computer science in connection with abstract classes.
+
+Fig. 2 shows the relation between the ISO norm, quality management documents
+and real-world process quality at three different levels within a company.  
+
+\begin{center}
+  \includegraphics[width=.8\textwidth]{images/QA-ISO9000.png}\\ \textbf{Fig. 2:}
+  The relation between model, meta-model and meta-meta-model in quality
+  assurance
+\end{center}
+
+\subsection{Managing Organisational Development and\\ Capability-Maturity
+  Models} 
+
+Management is only possible in the context of a clear understanding of the
+structural and procedural organisation of the organisation.  In order to
+capture this in descriptive terms, a \textbf{separation of functions and
+  resources} is necessary. In particular, "human resources" are removed from
+the description and replaced by the term \textbf{role}.
+
+In this way, a \emph{functional decoupling from the resources} is achieved at
+design time -- only at runtime this position must be connected "just in time"
+with a qualified resource that was produced beyond the horizon of the concrete
+planning processes.
+
+Only with such a decoupling (and only at the level of such a decoupling) it is
+possible as management to take an external standpoint on its own activities.
+Only in this way is \textbf{structurally driven organisational development}
+possible. There are other culturally driven approaches such as TQM, which will
+be discussed separately (the Toyota model).
+
+Systematic management through structurally driven organisational development
+means above all the creation and improvement of conditions for the management
+of well-structured processes.
+
+CMMI (Capability Maturity Model and its predecessor CMM) is such a process
+model for organisations such as software companies that are project-driven and
+do not have a continuous production process. The model is a \textbf{maturity
+  model} and supports such companies to introduce and improve a company-wide,
+uniformly structured project management
+\begin{itemize} 
+\item from the structuring of individual projects into \emph{process
+  activities and milestones}
+\item through the definition of \emph{company-wide uniform or specifically
+  adaptable process modules}
+\item and the \emph{uniform quantitative measurement} of such building blocks
+\item to the introduction of \emph{qualified error and change management}.
+\end{itemize}
+\begin{center}
+  \includegraphics[width=.8\textwidth]{images/CMMI-Levels.png}\\
+  \textbf{Fig. 3:} Increasing maturity of structured project management within
+  CMM(I)
+\end{center}
+These four transitions are assigned five maturity levels. The transitions are
+supported by concentrating on predefined \emph{key process areas} and
+\emph{key practices}.
+
+\subsection{Additional Reading: CMMI in More Detail}
+
+\subsubsection{The Maturity Levels}
+
+The five maturity levels according to which processes of an organization are
+evaluated.
+
+\paragraph {Initial Process}
+\begin {itemize} 
+\item Process exists only informally
+\item Low adherence to deadlines and costs, high risk
+\item Chaos, "heroism", fire-fighting operations
+\end {itemize}
+
+\paragraph {Repeatable Process (CMMI: Managed)}
+\begin {itemize} 
+\item There are defined and structured requirements for the process
+\item "Learn from similar projects" (requirements management, project
+  management and quality management)
+\end {itemize}
+
+\paragraph {Defined Process}
+\begin {itemize} 
+\item Procedures and individual process activities are clearly defined
+\item The organization is in the learning focus
+\item Process definition, training programs, team coordination
+\end {itemize}
+
+\paragraph {Managed Process (CMMI: Quantitatively Managed)}
+\begin {itemize} 
+\item Central control that systematically collects process measures
+\item Process and product development are quantitatively analyzed and rated
+\item Information is used as support for decision-making 
+\end {itemize}
+
+\paragraph {Optimizing Process}
+\begin {itemize} 
+\item "Self-dynamically optimizing process" 
+\item Process measures are systematically used for dynamic process control and
+  monitoring
+\item Process change management
+\item Technology change management
+\end {itemize}
+
+\subsubsection{Expectations}
+The higher the level of maturity, 
+\begin {itemize} 
+\item the more precisely goals are achieved.
+\item the less is the difference between the target and actual results.
+  \begin {itemize} 
+  \item Level 1 companies miss their deadlines at large. 
+  \end {itemize}
+\item The fluctuation range of the actual values around the target
+  specifications is lower.
+  \begin {itemize} 
+  \item Similar projects are completed within a narrower time frame.
+  \end {itemize}
+\item Costs and development time decrease, productivity and quality increase.
+  \begin {itemize} 
+  \item Higher process efficiency, low rework rate.
+  \end {itemize}
+\item Expectations are more likely fulfilled in standard projects.
+\item But: New techniques and applications are reducing the process capability
+  due to higher variability.
+\end {itemize}
+
+\subsubsection{Determination of the Maturity Level according to CMM}
+
+For each stage a number of \textbf {Key Process Areas} are defined in which an
+organization of this level has to reposition itself implementing appropriate
+given \textbf {Key Practices}.
+
+\subsubsection*{Level 1: Initial Process}
+\begin {itemize} 
+\item No criteria and specifications
+\item Project and quality management may or may not exist but are not 
+  consistently applied.
+\item Projects are managed at short notice, adaptively and reactively.
+\end {itemize}
+
+\subsubsection*{Level 2: Repeatable (CMMI: managed) Process}
+
+\emph {Goal:} Introduction of a basic project monitoring and management,
+planning and control.
+  
+\emph {Focus:} Leadership principles, structure and management of projects.
+
+\emph {Key Process Areas and Key Practices:}
+\begin {itemize} 
+\item \textbf {Requirements management}
+  \begin {itemize} 
+  \item Establish a common understanding between customer and project team
+    about the requirements.
+  \end {itemize}
+\item \textbf {Project planning, tracking and monitoring}
+  \begin {itemize} 
+  \item Transparent presentation of the development progress in order to be
+    able to initiate correction measures at early stage.
+  \end {itemize}
+\item \textbf {Sub-order management}
+  \begin {itemize} 
+  \item Select, control and monitor qualified sub-suppliers.
+  \end {itemize}
+\item \textbf {Quality management} on process and product level, configuration
+  management
+  \begin {itemize} 
+  \item Ensure integrity of the products throughout their entire life cycle.
+  \end {itemize}
+\end {itemize}
+
+\emph{Result:}
+\begin {itemize} 
+\item Processes as a sequence of "black boxes" with milestones as checkpoints.
+\item Stable project management.
+\item Processes can be predicted within limits through constant monitoring.
+\item Cross-project experience can be quantified.
+\end {itemize}
+
+\subsubsection*{Level 3: Defined Process}
+
+\emph{Goal:} Definition and introduction of an organization-wide valid unified
+software process; internal structure of the phases is defined and
+understanding of roles is visible.
+
+\emph {Prerequisite:} Projects are planned, managed and monitored (level 2) as
+a sequence of processes according to uniform principles.
+
+\emph {Focus:} Process descriptions.
+
+\emph {Key Process Areas and Key Practices:} Focus on process organization
+\begin {itemize} 
+\item \textbf {Definition} of processes
+  \begin {itemize} 
+  \item Development and maintenance of a useful set of process values.
+  \end {itemize}
+\item \textbf {Training program}
+  \begin {itemize} 
+  \item An independent unit is responsible for employees' training.
+  \end {itemize}
+\item \textbf {Coordination} between project teams (exchange of experience)
+\item \textbf {Integrated SW Management}
+  \begin {itemize} 
+  \item Development and management are integrated into one over the entire
+    life cycle defined process.
+  \item Standard processes can be tailored to projects.
+  \end {itemize}
+\item \textbf {SW Product engineering}
+  \begin {itemize} 
+  \item Process integrates all technical activities to ensure to produce
+    correct, consistent products effectively and efficiently.
+  \end {itemize}
+\end {itemize}
+
+CMMI further subdivides some of the main process areas
+\begin {itemize} 
+\item \textbf {Coordination}
+  \begin {itemize} 
+  \item Integrated team building
+  \item Integrated sub-order management
+  \item Decision analysis
+  \item Integration organization infrastructure
+  \end {itemize}
+\item \textbf {Integrated SW Management}
+  \begin {itemize} 
+  \item Integrated project management
+  \item Risk management
+  \end {itemize}
+\item \textbf {SW Product Engineering}
+  \begin {itemize} 
+  \item Requirements analysis
+  \item Technical solution
+  \item Product integration
+  \item Verification
+  \item Validation
+  \end {itemize}
+\end {itemize}
+
+\emph{Result:} Improved, describable quality; institutionalised process
+prototypes that are maintained and further developed.
+
+\subsubsection*{Level 4: Managed (CMMI: Quantitatively Managed) Process}
+
+\emph{Objective:} Quantitative measurement of the quality of products and the
+productivity of processes through an organisation-wide metrics programme as an
+objective basis for decision making.
+
+\emph{Prerequisite:} Uniform understanding across the organisation about
+projects and process models (level 3) and active project management (level 2).
+
+\emph{Focus:} Process measurement.
+
+\emph{Key Process Areas and Key Practices:}
+\begin{itemize}
+\item \textbf{Quantitative process management}
+  \begin{itemize}
+  \item Quantitatively control and monitor process performance.
+  \end{itemize}
+\item \textbf{Quantitative quality managament}
+  \begin{itemize}
+  \item  Develop quantitative understanding of product quality.
+  \end{itemize}
+\end{itemize}
+
+CMMI clarifies as follows:
+\begin{itemize}
+\item Quantitative project management
+\item Performance of organisational processes
+\end{itemize}
+
+\emph{Result:} Time, cost and quality become fairly predictable.
+
+\subsubsection*{Level 5: Optimising Process}
+
+\emph{Objective:} Introduction of a continuous and measurable process for
+improvement of software development.
+
+\emph{Prerequisite:} Quantitative monitoring information (level 4) and
+application of innovative ideas and technologies.
+
+\emph{Focus:} Process alignment.
+
+\emph{Key Process Areas and Key Practices:}
+\begin{itemize}
+\item \textbf{Error avoidance}
+  \begin{itemize}
+  \item Identify and eliminate causes of errors.
+  \end{itemize}
+\textbf{Product innovation management}
+  \begin{itemize}
+  \item Integration of new technological developments at product level.  
+  \end{itemize}
+\textbf{Process innovation management}
+  \begin{itemize}
+  \item Identification of new, useful ideas and their orderly introduction.
+  \end{itemize}
+\end{itemize}
+CMMI specified:
+\begin{itemize}
+\item Organisation-wide introduction of innovations
+\item Analysis of causes and elimination of errors
+\end{itemize}
+
+
+\begin{thebibliography}{xxx}
+\bibitem{foaf} FOAF Vocabulary Specification (2014).\\ W3C Recommendation.
+  \url{http://xmlns.com/foaf/spec/}.
+\bibitem{Graebe2020} Hans-Gert Gräbe (2020). Men and their technical systems
+  (in German).\\ LIFIS Online, 19 May 2020.
+  \url{https://doi.org/10.14625/graebe_20200519}.
+
+  A shorter English version is available at\\
+  \url{https://hg-graebe.de/EigeneTexte/sys-20-en.pdf}
+\bibitem{vocab-org} The Organization Ontology (2014).\\  W3C Recommendation.
+  \url{https://www.w3.org/TR/vocab-org}.
+\bibitem{Petrov2020} Vladimir Petrov (2020). Laws and patterns of systems
+  development (in Russian). ISBN 978-5-0051-5728-7.
+\bibitem{MSM} Georgy P. Shchedrovitsky. Selected Works. In: Viktor
+  B. Khristenko, Andrei G. Reus, Alexander P. Zinchenko et al. (2014).
+  Methodological School of Management. Bloomsbury Publishing.  ISBN
+  978-1-4729-1029-5.
+\bibitem{Sommerville2015} Ian Sommerville (2015). Software Engineering.
+\bibitem{Szyperski2002} Clemens Szyperski (2002). Component Software. Pearson
+  Education.  2nd edition  ISBN 0201745720.
+\bibitem{TOP} The TRIZ Ontology Project.
+  \url{https://wumm-project.github.io/Ontology.html}.
+\end{thebibliography}
+
+\end{document}
+

@@ -39,6 +39,10 @@ written in English.
 * Hans-Gert Gräbe (2022a). Systems and systemic development in TRIZ.
   <https://hg-graebe.de/EigeneTexte/TFC2022-en.pdf>
 
+* Karl Koltze, Valeri Souchkov (2017). Systematische Innovationsmethoden.
+  Hanser Verlag, München.
+  - Available as E-Book in UB Uni Leipzig.
+  
 * A. Koschmider, R. Laue, M. Fellmann (2019). Business Process Model
   Anti-Patterns: A Bibliography and Taxonomy of Published Work. In Proceedings
   of the European Conference on Information Systems (ECIS). Stockholm &
@@ -47,8 +51,12 @@ written in English.
 * Carin Lindskog (2018). Exploitation and Exploration in Business Process
   Management – An exploratory paper. CEUR Workshop Proceedings, pp. 405-414.
 
-* Darrel Mann (2007). Hands-On Systematic Innovation for Business and
+* Darrell Mann (2007). Hands-On Systematic Innovation for Business and
   Management.  IFR Press.
+  - <https://store.systematic-innovation.com/books/ebooks/>
+
+* Darrell Mann (2012). Innovation Capability Maturity Model.  An Introduction.
+  IFR Press.
   - <https://store.systematic-innovation.com/books/ebooks/>
 
 * Ian Sommerville (2015). Software Engineering.  
@@ -67,7 +75,7 @@ written in English.
 * Valeri Souchkov (2019).  TRIZ for Business and Management: State of the Art.
   TRIZ Developers Summit 2019.
   
-## Seminar themes:
+## Seminar themes
 
 The aim of the seminar is to become more familiar with individual concepts of
 _Business TRIZ_ and to place them in a broader context of modelling Business
@@ -75,7 +83,8 @@ Processes, of Business Models, Problem-solving strategies and patterns. The
 starting point in each case is a chapter in (Mann-2007); further research is
 required on the connection of the respective topic to other approaches in
 order to present commonalities and special features of Business TRIZ and other
-modelling approaches.
+modelling approaches.  The standard reference to classical TRIZ is
+(Koltze/Souchkov 2017).
 
 1. System Operator (pp. 84 ff)
 
