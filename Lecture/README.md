@@ -58,10 +58,16 @@ __Slides:__
 
 ## April 14: Concept of technology. Systems and their Development
 
-__Learning Objective:__ The concept of technology as a unit of 
-* socially available processual knowledge,
-* institutionalised procedures (state of the art) and
-* private processual skills
+__Learning Objective:__
+* The concept of technology as a unit of 
+  - socially available processual knowledge,
+  - institutionalised procedures (state of the art) and
+  - private processual skills
+* System definition, description and execution form 
+* Systems and human practice
+* Feedback circle of justified expectations and experienced results
+* Systems, language and common conceptual worlds
+* Systems and contexts
 
 __Literature__: (Gräbe 2020-1), (Gräbe 2020-2), (Gräbe 2020-3)
 
@@ -80,22 +86,30 @@ __Additional Reading__:
   - Ian Angus (2018). Vladimir Vernadsky and the Disruption of the Biosphere.
     <https://wumm-project.github.io/Texts/Angus-2018.pdf>
 
-__Learning Objectives:__
-
-* System definition, description and execution form of systems
-* Systems and human practice 
-* Open and closed systems
-* Modelling systems
-* Development of a system. Ideal line and real line of development.
-* Immersive and submersive concept of a system.
-* The Earth system and its global metabolism
-
 __Slides:__
 * [Technology](Technik.pdf)
 * [System Notion and Development](SystemNotion.pdf)
+
+## April 21: Systems and their Development
+
+__Learning Objectives:__
+* Components are for composition - the main task of systemic modelling
+* Viable systems are Open Systems
+  - Rayleigh-Bénard cells
+  - Metabolism of biological systems
+  - The Earth system and its global metabolism
+* TRIZ development patterns for (technical) systems
+* System Development
+* On the Theory of Dynamical Systems, trajectories and limit cycles.
+* System dynamics, steady states, attractors, KAM theorem
+* Coevolution of systems
+* Immersive and submersive concept of a system.
+
+__Slides:__
+* [System Notion and Development](SystemNotion.pdf)
 * [Immersive and Submersive Systems](ImmersiveSubmersive.pdf)
 
-## April 21: Systems and Sustainability
+## April 28: Systems and Sustainability
 
 __Additional Reading__:
 * (Geels/Schot 2007), (Gräbe 2020-2), (Holling-2001), (Thiel-2000).
@@ -107,7 +121,7 @@ __Learning Objectives__:
 * Challenges and development aspects of a civil society
 * Relation between fundamental challenges and digital technologies
 
-## April 28: Systemic Structures and Spaces of Action
+## May 5: Systemic Structures and Spaces of Action
 
 __Literature__: (Ackoff-1091), (Holling-2001)
 
@@ -120,7 +134,7 @@ __Learning Objectives__:
 * The concept of action spaces.
 * World and reality. World as reality _for us_. Action.
 
-## May 5: Digital Spaces of Action
+## May 12: Digital Spaces of Action
 
 __Literature__: (Schetsche-2006) 
 
@@ -137,7 +151,7 @@ __Learning Objectives__:
 * Acting in Digital Action Spaces.
 * Concepts _digital universe_ and _digital identity_.
 
-## May 12: Digital Action Spaces. Internet Basics. 
+## May 19: Digital Action Spaces. Internet Basics. RDF Basics. 
 
 __Learning Objectives__:
 * Concepts _digital universe_ and _digital identity_.
@@ -147,8 +161,9 @@ __Learning Objectives__:
 * Internet Basics
 * The OSI 7-layer model
 * Management of IPs and computer names
-
-## May 19: RDF Basics. 
+* RDF basics: URI, namespace, subject, predicate, object.
+* RDF concepts. RDF graphs, pattern search, SPARQL query language.
+* RDF Tools. RDF Stores, SPARQL Endpoints
 
 __Literature__:
 * Hans-Gert Gräbe, Thomas Riechert, Michael Martin (2011). OD.FMI –
@@ -159,11 +174,6 @@ __Literature__:
   * <http://www.informatik.uni-leipzig.de/~graebe/Forschung/EEE/ODQuelle.html>
 * Open Data Support (2013). Trainingsmodul 1.3 Einführung in RDF & SPARQL.
   * [RDF-Einfuehrung.pdf](http://www.informatik.uni-leipzig.de/~graebe/Material/RDF-Einfuehrung.pdf)
-
-__Learning Objectives__:
-* RDF basics: URI, namespace, subject, predicate, object.
-* RDF concepts. RDF graphs, pattern search, SPARQL query language.
-* RDF Tools. RDF Stores, SPARQL Endpoints
 
 ## June 02: Modelling Conceptual Worlds. The Giant Global Graph. 
 

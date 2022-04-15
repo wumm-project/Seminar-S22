@@ -39,6 +39,10 @@ written in English.
 * Hans-Gert Gräbe (2022a). Systems and systemic development in TRIZ.
   <https://hg-graebe.de/EigeneTexte/TFC2022-en.pdf>
 
+* Hans-Gert Gräbe (2022b). Systems, Organisations, Management.  Handout for
+  the Seminar.
+  <http://www.informatik.uni-leipzig.de/~graebe/Forschung/SIM/SystemsOrganisations.pdf>
+
 * Karl Koltze, Valeri Souchkov (2017). Systematische Innovationsmethoden.
   Hanser Verlag, München.
   - Available as E-Book in UB Uni Leipzig.
@@ -77,6 +81,8 @@ written in English.
   
 ## Seminar themes
 
+### Business TRIZ
+
 The aim of the seminar is to become more familiar with individual concepts of
 _Business TRIZ_ and to place them in a broader context of modelling Business
 Processes, of Business Models, Problem-solving strategies and patterns. The
@@ -84,7 +90,8 @@ starting point in each case is a chapter in (Mann-2007); further research is
 required on the connection of the respective topic to other approaches in
 order to present commonalities and special features of Business TRIZ and other
 modelling approaches.  The standard reference to classical TRIZ is
-(Koltze/Souchkov 2017).
+(Koltze/Souchkov 2017).  For an introduction to the notions _system_ and
+_organisation_ see the handout (Graebe 2022b).
 
 1. System Operator (pp. 84 ff)
 
@@ -114,6 +121,8 @@ modelling approaches.  The standard reference to classical TRIZ is
 
 14. Subversion Analysis (pp. 564 ff)
 
+
+
 ## Seminar schedule - to be fixed
 
 - [19.04.] Kick-off Meeting
@@ -121,6 +130,7 @@ modelling approaches.  The standard reference to classical TRIZ is
 
 - 26.04.
   - Presentation and discussion of (Graebe 2022a)
+  - See also (Graebe 2022b)
 
 - 03.05.
 
