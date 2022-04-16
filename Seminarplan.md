@@ -78,7 +78,20 @@ written in English.
 
 * Valeri Souchkov (2019).  TRIZ for Business and Management: State of the Art.
   TRIZ Developers Summit 2019.
-  
+
+* Luisa Wagner (2021). Business Model Revolution: Kreative Ideen für neue
+  Geschäftsmodelle durch den Einsatz von TRIZ (Business Model Revolution:
+  Creative ideas for new business models through the use of TRIZ).
+  Master Thesis at HS Aalen.
+  [pdf, in German](Texts/WagnerLuisa-2021.pdf)
+  * [Trend-Leporellos, in German](Texts/Trend-Leporellos.pdf)
+
+* Boris Zlotin, Alla Zusman, Leo Kaplan, Svetlana Visnepolschi, Vladimir
+  Proseanic, Sergey Malkin (2000).  TRIZ beyond technology: the theory and
+  practice of applying TRIZ to non-technical areas.  
+  * <http://www.trizmantra.com/Learning%20Resource%20files/TRIZ_Beyond_Technology.pdf>
+
+
 ## Seminar themes
 
 ### Business TRIZ
@@ -121,11 +134,9 @@ _organisation_ see the handout (Graebe 2022b).
 
 14. Subversion Analysis (pp. 564 ff)
 
+## Seminar schedule 
 
-
-## Seminar schedule - to be fixed
-
-- [19.04.] Kick-off Meeting
+- [19.04.](2022-04-19/README.md) Kick-off Meeting
   - Introduction to the seminar topic. Discussion of the seminar plan. (Gräbe)
 
 - 26.04.
