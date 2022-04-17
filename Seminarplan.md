@@ -91,7 +91,6 @@ written in English.
   practice of applying TRIZ to non-technical areas.  
   * <http://www.trizmantra.com/Learning%20Resource%20files/TRIZ_Beyond_Technology.pdf>
 
-
 ## Seminar themes
 
 ### Business TRIZ
