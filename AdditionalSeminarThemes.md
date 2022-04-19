@@ -27,6 +27,11 @@ These themes are compiled from earlier seminar cycles.
   business landscape. Industrial Marketing Management 42, 9–17.
   <http://dx.doi.org/10.1016/j.indmarman.2012.11.003>
 
+* Ron Fulbright (2011). The I-TRIZ Difference: Innovation Anytime, Anywhere, by
+  Anyone. International Journal of Innovation Science 3(2), pp. 41-54.
+  - <http://dx.doi.org/10.1260/1757-2223.3.2.41>
+  - See also <http://trizmantra.com/Learning%20Resource%20files/The%20ITRIZ_Difference.pdf>
+
 * Oliver Gassmann, Karolin Frankenberger, Michaela Csik (2020).  The
   St. Gallen Business Model Navigator. Working Paper.
   <https://businessmodelnavigator.com>
@@ -195,6 +200,8 @@ These themes are compiled from earlier seminar cycles.
 
   - __Literature:__ (APICS SCOR 2017), additional recherche required
 
+- Agent-based Cooperative Action
+
 ### Business Model Patterns and Anti-Patterns
 
 - Sustainable Business Model Patterns and Anti-Patterns
@@ -263,4 +270,17 @@ the notions _system_ and _organisation_ see the handout (Graebe 2022b).
 - Trimming (pp. 514 ff)
 - Psychological Inertia (pp. 545 ff)
 - Subversion Analysis (pp. 564 ff)
+
+The book contains two more comprehensive chapters of about 100 pages each: 
+
+- Conflict And Trade-Off Elimination vs. Inventive Principles
+  - Working with the Conflict Matrix
+  - Parameters and Principles
+- Linear and Non-Linear Trends of Evolution
+
+Further sources:
+
+- Directed Evolution (Zlotin, Zusman)
+- From P-TRIZ to Business TRIZ
+- I-TRIZ (Zlotin, Zusman)
 

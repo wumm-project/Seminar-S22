@@ -138,7 +138,7 @@ _organisation_ see the handout (Graebe 2022b).
 - [19.04.](2022-04-19/README.md) Kick-off Meeting
   - Introduction to the seminar topic. Discussion of the seminar plan. (Gräbe)
 
-- 26.04.
+- 26.04. Systems and systemic development in TRIZ.
   - Presentation and discussion of (Graebe 2022a)
   - See also (Graebe 2022b)
 
