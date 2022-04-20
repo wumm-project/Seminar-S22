@@ -43,6 +43,9 @@ written in English.
   the Seminar.
   <http://www.informatik.uni-leipzig.de/~graebe/Forschung/SIM/SystemsOrganisations.pdf>
 
+* Karl Kaiser, Wolfgang König (eds., 2006). Geschichte des Ingenieurs. Ein
+  Beruf in sechs Jahrtausenden. Hanser, Munich.
+
 * Karl Koltze, Valeri Souchkov (2017). Systematische Innovationsmethoden.
   Hanser Verlag, München.
   - Available as E-Book in UB Uni Leipzig.
@@ -63,6 +66,13 @@ written in English.
   IFR Press.
   - <https://store.systematic-innovation.com/books/ebooks/>
 
+* Howard Smith (2005). What Innovation Is. A CSC Whitepaper.
+
+* Howard Smith (2006). From CIO to CPO via BPM. A CSC Whitepaper. 
+
+* Howard Smith (2006). P-TRIZ. Part 1-9.  In particular Part 3.
+  - <http://www.bptrends.com/publicationfiles/04-06-COL--P-TRIZ-3-Smith.pdf>
+  
 * Ian Sommerville (2015). Software Engineering.  
 
 * Valeri Souchkov (2010).  TRIZ and Systematic Business Model Innovation.  In:
@@ -91,9 +101,7 @@ written in English.
   practice of applying TRIZ to non-technical areas.  
   * <http://www.trizmantra.com/Learning%20Resource%20files/TRIZ_Beyond_Technology.pdf>
 
-## Seminar themes
-
-### Business TRIZ
+## Seminar themes - Business TRIZ
 
 The aim of the seminar is to become more familiar with individual concepts of
 _Business TRIZ_ and to place them in a broader context of modelling Business
@@ -104,6 +112,8 @@ order to present commonalities and special features of Business TRIZ and other
 modelling approaches.  The standard reference to classical TRIZ is
 (Koltze/Souchkov 2017).  For an introduction to the notions _system_ and
 _organisation_ see the handout (Graebe 2022b).
+
+### Problem Definition
 
 1. System Operator (pp. 84 ff)
 
@@ -117,21 +127,29 @@ _organisation_ see the handout (Graebe 2022b).
 
 6. Perception Mapping (pp. 184 ff.)
 
-7. Contradictions (pp. 337 ff)
+### Problem Solving Tools
 
-8. Measurement (pp. 353 ff)
+7. Contradiction Elimination (pp. 337 ff)
+
+8. Measurement Standards (pp. 353 ff) - Victor Jüttner
 
 9. Resources (pp. 463 ff)
 
 10. Knowledge (pp. 484 ff)
 
-11. Re-Framing (pp. 500 ff)
+11. Re-Focus/Re-Frame (pp. 500 ff)
 
 12. Trimming (pp. 514 ff)
 
 13. Psychological Inertia (pp. 545 ff)
 
 14. Subversion Analysis (pp. 564 ff)
+
+There are two more lengthy chapters that are recommended for additional
+reading:
+- Conflict & Trade-Off Elimination/Inventive Principles
+- Linear and Non-Linear Trends of Evolution
+
 
 ## Seminar schedule 
 
@@ -148,7 +166,7 @@ _organisation_ see the handout (Graebe 2022b).
 
 - 18.05. No seminar
 
-- 24.05.
+- 24.05. Victor Jüttner: Measurement
 
 - 31.05.
 

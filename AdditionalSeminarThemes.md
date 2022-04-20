@@ -51,6 +51,9 @@ These themes are compiled from earlier seminar cycles.
   the Seminar.
   <http://www.informatik.uni-leipzig.de/~graebe/Forschung/SIM/SystemsOrganisations.pdf>
 
+* Karl Kaiser, Wolfgang König (eds., 2006). Geschichte des Ingenieurs. Ein
+  Beruf in sechs Jahrtausenden. Hanser, Munich.
+
 * Karl Koltze, Valeri Souchkov (2017). Systematische Innovationsmethoden.
   Hanser Verlag, München.
   - Available as E-Book in UB Uni Leipzig.
@@ -202,6 +205,8 @@ These themes are compiled from earlier seminar cycles.
 
 - Agent-based Cooperative Action
 
+- Sustainability, Triple Bottom Line, the PESTLE approach and Business Models
+
 ### Business Model Patterns and Anti-Patterns
 
 - Sustainable Business Model Patterns and Anti-Patterns
@@ -283,4 +288,7 @@ Further sources:
 - Directed Evolution (Zlotin, Zusman)
 - From P-TRIZ to Business TRIZ
 - I-TRIZ (Zlotin, Zusman)
-
+- Process models in Business TRIZ and Capability Maturity Models
+- Sociocracy 3.0 (E. Kustov) and Business Model Patterns
+- Inventive Business Standards - a comparison with classical TRIZ
+- Root Conflict Analysis in Business Cases 
