@@ -166,11 +166,11 @@ reading:
 
 - 18.05. No seminar
 
-- 24.05. Victor Jüttner: Measurement
+- 24.05. Victor Jüttner: Measurement Standards
 
-- 31.05.
+- 31.05. Lukas Gehrke: Psychological Inertia
 
-- 07.06.
+- 07.06. Cecilia Graiff: Knowledge
 
 - 14.06.
 
