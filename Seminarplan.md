@@ -141,7 +141,7 @@ _organisation_ see the handout (Graebe 2022b).
 
 12. Trimming (pp. 514 ff)
 
-13. Psychological Inertia (pp. 545 ff)
+13. Psychological Inertia (pp. 60-82, 545 ff)
 
 14. Subversion Analysis (pp. 564 ff)
 
@@ -156,7 +156,7 @@ reading:
 - [19.04.](2022-04-19/README.md) Kick-off Meeting
   - Introduction to the seminar topic. Discussion of the seminar plan. (Gräbe)
 
-- 26.04. Systems and systemic development in TRIZ.
+- [26.04.](2022-04-26/README.md) Systems and systemic development in TRIZ.
   - Presentation and discussion of (Graebe 2022a)
   - See also (Graebe 2022b)
 
@@ -164,7 +164,7 @@ reading:
 
 - 10.05.
 
-- 18.05. No seminar
+- 17.05. No seminar
 
 - 24.05. Victor Jüttner: Measurement Standards
 
