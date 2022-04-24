@@ -99,27 +99,56 @@ This methodology can be applied to \emph{any planning approach}, including
 non-technical areas such as Business and Management.
 \end{frame}
 
-
-\newcommand{\abox}[2]{\fbox{\parbox{#1\textwidth}{\footnotesize\raggedright
-      #2}}} 
 \begin{frame}{TRIZ and Systematic Innovation}
   \begin{center}
-    \includegraphics[width=.8\textwidth]{images/ProblemSolvingWithTRIZ.png}
+    \includegraphics[width=\textwidth]{images/ProblemSolvingWithTRIZ.png}
+    \vskip2em
 
-\abox{.12}{Real problem} $\xrightarrow{\rm Modelling}$ \abox{.15}{Problem
-  description} $\xrightarrow{\rm Generalisation}$ \abox{.25}{Conceptual
-  classification of the problem}
-  \end{center}\vspace*{-1em}
-  
-\hskip2em $\downarrow$ \hskip9em $\downarrow$ \hskip4em Transformation
-\hskip1em $\Downarrow$ \vspace*{-1em}
-
-  \begin{center}
-\abox{.10}{Real solution} $\xleftarrow{\rm Implementation}$
-\abox{.25}{Description of the solution} $\xleftarrow{\rm Specialisation}$
-\abox{.10}{Solution concept} 
+    The general TRIZ solution pattern
   \end{center}
 \end{frame}
+
+\begin{frame}{TRIZ and Systematic Innovation}\small
+  \begin{center}
+  \begin{tikzpicture}[scale=.95,transform shape,
+      textbox/.style={draw, text width=3cm, minimum height=2.8em,
+        align=center},
+      ovalbox/.style={draw, dashed, align=center},
+      %>={Triangle[length=0pt 6,width=0pt 5]},
+      rounded corners=2pt,line width=.8pt]
+
+    \node[text width=1.1cm] at (-1,1.5) (A0) {System\\ as is};
+    \node[textbox] at (0,0) (A1) {Real Problem};
+    \node[ovalbox] at (1,1.5) {Define\\ Model}; 
+    \node[textbox] at (0,3) (A2) {Modell of the Problem};
+    \node[ovalbox] at (-1.2,4.5) {Select\\ Generalise}; 
+    \node[textbox] at (0,6) (A3) {Classification of the Problem};
+    \node[ovalbox] at (2.5,4.8) {Generate\\ Transform}; 
+    \node[textbox] at (5,6) (B3) {Solution Templates};
+    \node[ovalbox] at (6.2,4.5) {Evaluate\\ Specialise}; 
+    \node[textbox] at (5,3) (B2) {Taylored\\ Solution Plan};
+    \node[ovalbox] at (6.2,1.5) {Implement}; 
+    \node[textbox] at (5,0) (B1) {Solution in Operation};
+    \node[text width=1.8cm] at (8,3) (C2) {System as\\ required};
+    \node[text width=1.8cm] at (8,0) (C1) {System as\\ it became};
+
+    \draw[-,dashed] (A0) -- (A1);
+    \draw[-,dashed] (A0) -- (A2);
+    \draw[-,dashed] (B1) -- (C1);
+    \draw[-,dashed] (B2) -- (C2);
+    \draw[-,dashed] (A0) -- (A1);
+    \draw[-,dashed] (A0) -- (A1);
+    
+    \draw[double,->] (A1) -- (A2) ;
+    \draw[double,->] (A2) -- (A3) ;
+    \draw[double,->] (A3) -- (B3) ;
+    \draw[double,->,dashed] (A2) -- (B2) ;
+    \draw[double,->] (B3) -- (B2) ;
+    \draw[double,->] (B2) -- (B1) ;
+\end{tikzpicture}
+\end{center}
+\end{frame}
+
 \begin{frame}{TRIZ and Systematic Innovation}
 TRIZ methodologies are applied 
 \begin{itemize}

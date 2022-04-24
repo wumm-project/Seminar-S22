@@ -25,11 +25,11 @@ D. Mann stops at this mental stage in his book, which of course must still be
 followed by the _implementation_ of the solution - "it is not only about
 interpreting the world differently, it is a matter of changing it" (Marx).
 The implementation of solutions, however, as a primarily practical-material
-process and is strongly dependent on domain- and situation-specific
-conditions.  Nevertheless: "the proof of the pudding is the eating" - only the
-full systemic transformation from the should-is comparison of the "system as
-it is" to the "should" of the "system as required" and "is" of the "system as
-it became" closes the feedback cycle between justified expectations and
+process is strongly dependent on domain- and situation-specific conditions.
+Nevertheless: "the proof of the pudding is the eating" - only the full
+systemic transformation from the should-is comparison of the "system as it is"
+to the "should" of the "system as required" and "is" of the "system as it
+became" closes the feedback cycle between justified expectations and
 experienced results that fundamentally drives the systemic development of the
 world.
 
@@ -52,3 +52,4 @@ aspect.
 
 - Hans-Gert Gräbe (2022).  Systems and systemic development in TRIZ.
   <https://hg-graebe.de/EigeneTexte/TFC2022-en.pdf>
+- [Slides](Slides.pdf)
