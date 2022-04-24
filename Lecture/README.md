@@ -109,7 +109,20 @@ __Slides:__
 * [System Notion and Development](SystemNotion.pdf)
 * [Immersive and Submersive Systems](ImmersiveSubmersive.pdf)
 
-## April 28: Systems and Sustainability
+## April 28: Organisations as Systems
+
+__Learning Objectives:__
+* Once more about the concept of a system
+* Concepts in the ORG and FOAF ontologies
+* Agents, Groups and Organisations as structures capable of action
+* Ian Sommerville on Organisation as Socio-Technical System
+* Shchedrovitsky on Organisations
+
+__Slides:__
+* [Organisations as Systems](Organisations.pdf)
+
+
+## May 5: Systems and Sustainability
 
 __Additional Reading__:
 * (Geels/Schot 2007), (Gräbe 2020-2), (Holling-2001), (Thiel-2000).
@@ -121,7 +134,7 @@ __Learning Objectives__:
 * Challenges and development aspects of a civil society
 * Relation between fundamental challenges and digital technologies
 
-## May 5: Systemic Structures and Spaces of Action
+## May 12: Systemic Structures and Spaces of Action
 
 __Literature__: (Ackoff-1091), (Holling-2001)
 
@@ -134,7 +147,7 @@ __Learning Objectives__:
 * The concept of action spaces.
 * World and reality. World as reality _for us_. Action.
 
-## May 12: Digital Spaces of Action
+## May 19: Digital Spaces of Action
 
 __Literature__: (Schetsche-2006) 
 
@@ -151,7 +164,7 @@ __Learning Objectives__:
 * Acting in Digital Action Spaces.
 * Concepts _digital universe_ and _digital identity_.
 
-## May 19: Digital Action Spaces. Internet Basics. RDF Basics. 
+## June 02: Digital Action Spaces. Internet Basics. RDF Basics. 
 
 __Learning Objectives__:
 * Concepts _digital universe_ and _digital identity_.
@@ -175,7 +188,7 @@ __Literature__:
 * Open Data Support (2013). Trainingsmodul 1.3 Einführung in RDF & SPARQL.
   * [RDF-Einfuehrung.pdf](http://www.informatik.uni-leipzig.de/~graebe/Material/RDF-Einfuehrung.pdf)
 
-## June 02: Modelling Conceptual Worlds. The Giant Global Graph. 
+## June 09: Modelling Conceptual Worlds. The Giant Global Graph. 
 
 __Learning Objectives__:
 * Conceptual worlds and ontologies
@@ -193,15 +206,13 @@ __Literature__:
 * Marc Zobrist (2018). Ontologien und Datenmodelle. 
   * <https://histhub.ch/ontologien-und-datenmodelle/>
 
-## June 09: Data and Information.
+## June 16: Data and Information. Storytelling, Conceptualisation, Information and Language
 
 __Learning Objectives__:
 * Importance of shared conceptual worlds for well-ordered cohabitation
 * Shortcuts of speaking and social normality
 * Data and Information
 * Syntax, Semantics, Pragmatics
-
-## June 16: Storytelling, Conceptualisation, Information and Language
 
 __Literature__:
 * Helmut Klemm (2003). Ein großes Elend. Informatik-Spektrum 26, S. 267–273. 
