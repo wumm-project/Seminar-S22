@@ -2,7 +2,7 @@
 
 ## Short Announcement
 
-* __Theme:__   On the Notion of Resource
+* __Theme:__   On the Notion of a Resource
 * __Presenter:__ Hans-Gert Gräbe
 
 ## Abstract

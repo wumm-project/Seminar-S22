@@ -129,19 +129,19 @@ _organisation_ see the handout (Graebe 2022b).
 
 ### Problem Solving Tools
 
-7. Contradiction Elimination (pp. 337 ff)
+7. Contradiction Elimination (pp. 337 ff) - Immanuel von Detten
 
 8. Measurement Standards (pp. 353 ff) - Victor Jüttner
 
 9. Resources (pp. 463 ff)
 
-10. Knowledge (pp. 484 ff)
+10. Knowledge (pp. 484 ff) - Cecilia Graiff
 
 11. Re-Focus/Re-Frame (pp. 500 ff)
 
 12. Trimming (pp. 514 ff)
 
-13. Psychological Inertia (pp. 60-82, 545 ff)
+13. Psychological Inertia (pp. 60-82, 545 ff) - Lukas Gehrke
 
 14. Subversion Analysis (pp. 564 ff)
 
@@ -150,34 +150,20 @@ reading:
 - Conflict & Trade-Off Elimination/Inventive Principles
 - Linear and Non-Linear Trends of Evolution
 
-
 ## Seminar schedule 
 
-- [19.04.](2022-04-19/README.md) Kick-off Meeting
-  - Introduction to the seminar topic. Discussion of the seminar plan. (Gräbe)
-
-- [26.04.](2022-04-26/README.md) Systems and systemic development in TRIZ.
-  - Presentation and discussion of (Graebe 2022a)
-  - See also (Graebe 2022b)
-
-- 03.05.
-
-- 10.05.
-
+- [19.04.](2022-04-19/README.md) Kick-off Meeting. Introduction to the seminar
+  topic.  (Gräbe)
+- [26.04.](2022-04-26/README.md) On the notion of a resource. (Gräbe) 
+- [03.05.](2022-05-03/README.md) Resources and systemic concepts of first and
+  second kind (Gräbe)
+- 10.05. P-TRIZ (Gräbe)
 - 17.05. No seminar
-
 - 24.05. Victor Jüttner: Measurement Standards
-
 - 31.05. Lukas Gehrke: Psychological Inertia
-
 - 07.06. Cecilia Graiff: Knowledge
-
-- 14.06.
-
+- 14.06. Immanuel von Detten: Contradiction Elimination
 - 21.06.
-
 - 28.06.
-
-- 05.07. Data Week
-
+- 05.07. No Seminar. Data Week
 - 12.07. 
