@@ -53,3 +53,30 @@ aspect.
 - Hans-Gert Gräbe (2022).  Systems and systemic development in TRIZ.
   <https://hg-graebe.de/EigeneTexte/TFC2022-en.pdf>
 - [Slides](Slides.pdf)
+
+## Notes
+
+The presentation touched on the following issues:
+
+- Darrell Mann's distinction of the four phases Define, Select, Generate,
+  Evaluate of a systemic problem solving process was put in relation to the
+  concept of a system we have developed so far on the background of TRIZ.
+- It was discussed to which extent systemic problem solving is oriented
+  towards _pure functionality_ only. The relation to the TRIZ concept of
+  Ideality and Ideal Machine was considered.
+- The importance of _implementation_ and real-world operation of the solution
+  for the feedback loop between _justified expectations_ and _experienced
+  results_ was emphasised.  The solution is not to stop at the stage of a
+  _solution plan_ alone, as a "conditional mind game".
+- Implementation means re-embedding the solution into its context.  In this
+  context the _concept of resources_ plays a central role. The availability of
+  suitable resources is central for the throughput of material, energy and
+  information as an essential living condition of a systemic solution. This
+  must early be conceptually incorporated in the solution process.
+- It was investigated how the throughput problem is present in the TRIZ
+  concepts "minimal technical system, "complete technical system" as well as
+  in Substance-Field Modelling.
+- Some principal conceptual pairs have been elaborated
+  - Pure functionality and state-changing actions
+  - Components and Objects in (Szyperski 2002)
+  - Operation and maintenance mode of technical systems

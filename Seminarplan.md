@@ -139,7 +139,7 @@ _organisation_ see the handout (Graebe 2022b).
 
 11. Re-Focus/Re-Frame (pp. 500 ff)
 
-12. Trimming (pp. 514 ff)
+12. Trimming (pp. 514 ff) - Carsten Lehmann
 
 13. Psychological Inertia (pp. 60-82, 545 ff) - Lukas Gehrke
 
@@ -163,7 +163,7 @@ reading:
 - 31.05. Lukas Gehrke: Psychological Inertia
 - 07.06. Cecilia Graiff: Knowledge
 - 14.06. Immanuel von Detten: Contradiction Elimination
-- 21.06.
+- 21.06. Carsten Lehmann: Trimmen
 - 28.06.
-- 05.07. No Seminar. Data Week
+- 05.07. No seminar. [Leipzig Data Week](https://dataweek.de/)
 - 12.07. 
