@@ -113,10 +113,9 @@ __Slides:__
 
 __Learning Objectives:__
 * Once more about the concept of a system
-* Concepts in the ORG and FOAF ontologies
+* The concept of an organisation in the ORG and FOAF ontologies
 * Agents, Groups and Organisations as structures capable of action
 * Ian Sommerville on Organisation as Socio-Technical System
-* Shchedrovitsky on Organisations
 
 __Slides:__
 * [Organisations as Systems](Organisations.pdf)
@@ -129,10 +128,15 @@ __Additional Reading__:
 * Mike Davis (2010).   Who will build the ark? New Left Review 61, 2010.
 
 __Learning Objectives__:
+* Shchedrovitsky on Organisations
 * On the notion of sustainability.
 * Sustainability challenges.
 * Challenges and development aspects of a civil society
 * Relation between fundamental challenges and digital technologies
+
+__Slides:__
+* [Organisations as Systems](Organisations.pdf)
+* [Systems and Sustainability](Sustainability.pdf)
 
 ## May 12: Systemic Structures and Spaces of Action
 
