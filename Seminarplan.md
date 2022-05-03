@@ -161,9 +161,10 @@ reading:
 - 17.05. No seminar
 - 24.05. Victor Jüttner: Measurement Standards
 - 31.05. Lukas Gehrke: Psychological Inertia
-- 07.06. Cecilia Graiff: Knowledge
+- 07.06. 
 - 14.06. Immanuel von Detten: Contradiction Elimination
 - 21.06. Carsten Lehmann: Trimmen
-- 28.06.
+- 28.06. Cecilia Graiff: Knowledge
 - 05.07. No seminar. [Leipzig Data Week](https://dataweek.de/)
-- 12.07. 
+- 12.07.
+- 15.07. Optional: Interdisciplinary Workshop "Business TRIZ and Eco-Guidelines" 
