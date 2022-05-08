@@ -1,0 +1,300 @@
+\documentclass{beamer}
+\usepackage{lsfolien}
+\usepackage[english]{babel}
+
+\myfootline{Sustainability, Environment, Management -- Summer Term
+  2022}{Hans-Gert Gr\"abe}
+
+\title{On the Notion of a Resource. Part 2\vskip1em}
+
+\subtitle{Research Seminar in the Module 10-202-2312\\ for Master Computer
+  Science}
+
+\author{Prof. Dr. Hans-Gert Gräbe\\
+\url{http://www.informatik.uni-leipzig.de/~graebe}}
+
+\date{May 2022}
+\begin{document}
+
+{\setbeamertemplate{footline}{}
+\begin{frame}
+  \titlepage
+\end{frame}}
+
+\begin{frame}{Resources, Tools and State Changes} 
+
+We worked out an \textbf{conceptional asymmetry between tool and workpiece}:
+The tool (as a component within the system) provides a \emph{main useful
+  function} that is applied to change the state of the workpiece. The state of
+the tool remains (at least conceptually) unchanged.
+
+In SF-modelling this asymmetry moves into the background, but the state-change
+is rather matter of the \textbf{action} (as „pure functionality“ of the Ideal
+Machine -- the machine disappeares) and no more the tool.
+
+This matches the component concept as proposed by C. Szyperski for Component
+Software.
+
+\end{frame}
+
+\begin{frame}{Components and Objects according to Szyperski}
+  
+\emph{Components} (which are „for composition“) are conceptualised
+\begin{itemize}
+\item as unit of independent deployment,
+\item as unit of third party composition
+\item having no (externally) observable state.
+\end{itemize}
+In contrast to this \emph{Objects} are conceptualised
+\begin{itemize}
+\item as unit of instantiation,
+\item that may have externally observable states
+\item and encapsulates its state and behaviour. 
+\end{itemize}
+Instantiation is important to maintain a certain standardisation of workpieces
+required for a repeated application of a function within a production process.
+\end{frame}
+
+\begin{frame}{The World of Technical Systems}
+
+The operational demand of a technical system is formulated in the form of
+\emph{specifications} as requirements to the "environment", which must be
+fulfilled for the \emph{operation} of the system. Thus the "reduction to the
+essentials" that characterises the systemic approach is only a
+\emph{conditional} mind game that presupposes a sufficiently powerful
+\emph{environment} as given, in which the necessary \emph{resources} can be
+found to fulfil the operating conditions.
+
+Sommerville emphasises the importance of such interface specification for the
+development of software systems that "need to interoperate with other systems
+that have already been developed and installed in the environment."
+
+\end{frame}
+
+\begin{frame}{Components as Resources and Component Models}
+
+The same perspective is significant when large systems are to be created in a
+cooperative development process and for this a decomposition into subsystems
+is required that are to be developed independently of each other.
+
+This development process in turn requires a more extensive socio-technical
+infrastructure with
+\begin{enumerate}
+\item \emph{independent components} that can be fully configured via their
+  interfaces,
+\item \emph{standards for components} that simplify their integration, 
+\item a \emph{middleware}, which supports the component integration with
+  software
+\item and a \emph{development process} that is designed for component-based
+  software engineering.
+\end{enumerate}
+
+\end{frame}
+
+\begin{frame}{Components as Resources and Component Models}
+
+Components are thus conceptually integrated into an overarching
+\emph{component model}, which essentially ensures the technical
+interoperability of different components beyond concrete interface
+specifications and thus forms a moment of unity in the diversity of the
+components.
+
+However, this unity extends not only to the model, but also to the operating
+conditions of the components (as functional property of the middleware) as
+well as to their socio-technical development conditions (as a partial
+formalisation of the development process).
+
+This frame constitutes as \emph{component framework} (Szyperski) a
+socio-technical supersystem as an "environment" of components that were
+created according to the specifications of that component model.
+  
+\end{frame}
+
+\begin{frame}{The World of Component Models}
+
+Szyperski, for his part, analyses this diversity of compatibilities and
+incompatibilities of different component models and identifies different
+levels of abstraction for the reuse of concepts that go beyond the use of
+prefabricated components.
+
+In his 20-year-old book he already emphasises
+\begin{quote}\small
+  the growing importance of component deployment, and the relationship between
+  components and services, the distinction of deployable components (or just
+  components) from deployed components (and, where important, the latter again
+  from installed components). Component instances are always the result of
+  instantiating an installed component -- even if installed on the fly.
+  Services are different from components in that they require a service
+  provider.  
+\end{quote}
+  
+\end{frame}
+
+\begin{frame}{Functional and Attributive Properties}
+
+Szyperski shows that the component approach is an approach of reuse that is
+not limited to the (possibly modified) abstract reuse of the technical
+functionality of a problem solution, but always reuses components together
+with their operating conditions as \emph{services} and thus not detached from
+their environment.
+
+For this, Shchedrovitsky's distinction between functional and attributive
+properties as well as the distinction between the notions of \emph{part} and
+\emph{element} are essential.  
+\begin{quote}\small
+  {\bf Elements} are what a unity is made up of, so an element is a part
+  inside the whole, which functions inside the unity, without as it were being
+  torn out of it. A simple body, a {\bf part}, is what we have when everything
+  has been disassembled and is laid out separately. But elements only exist
+  within the structure of {\bf connections}. So an element implies two
+  principally different types of properties: its properties as material, and
+  its functional property derived from connections.
+\end{quote}
+\end{frame}
+
+\begin{frame}{Functional and Attributive Properties}
+\begin{quote}\small
+  In other words, an element is not a part. A part exists when we mechanically
+  divide something up, so that each part exists on its own as a simple body.
+  An element is what exists in connections within the structure of the whole
+  and functions there. [\ldots]\vskip1em
+
+  {\bf Functional properties} belong to an element to the extent that it
+  belongs to the structure with connections, while other properties belong to
+  the element itself. If I take out this piece of material, it preserves its
+  {\bf attributive properties}. They do not depend on whether I take it out of
+  the system or put it into the system. But functional properties depend on
+  whether or not there are connections. They belong to the element, but they
+  are created by a connection; they are brought to the element by connections.
+\end{quote}
+
+\end{frame}
+
+\begin{frame}{Filling the Places with Content}
+The terms \emph{part}, \emph{element}, \emph{connection} describe the
+\emph{structure} of the place in the system itself, where the connection of
+the "dead" system with the "living" world must be carried out in order to
+bring the system itself to life.
+
+In the further system genesis, this conceptual frame has to be filled with
+suitable resources. How conceptualise this "filling“, the combination of the
+functional properties at the "connections" with resources to an almost
+ideal machine?
+
+To describe this composition process ("components are for composition" --
+Szyperski) Shchedrovitsky distinguishes the concepts \emph{place} and
+\emph{content}.
+
+\end{frame}
+
+\begin{frame}{Filling the Places with Content}
+\begin{quote}\small
+  Doing that, we introduce the concepts of place and content. An {\bf element}
+  is a unity of a place and its content – the unity of a functional place, or
+  a place in the structure, and what fills this place.\vskip1em
+
+  A {\bf place} is something that possesses functional properties. If we take
+  away the content, take it out of the structure, the place will remain in the
+  structure, held there by {\bf connections}. The place bears the totality of
+  functional properties.\vskip1em
+
+  The {\bf content} by contrast is something that has attributive functions.
+  Attributive functions are those that are retained by the content of a place,
+  when this content is taken out of the given structure. We never know whether
+  these are its properties from another system or not. Now we might take
+  something out as content, but it is in fact tied to another system, which,
+  as it were, extends through this place. 
+\end{quote}
+\end{frame}
+
+\begin{frame}{Filling the Places with Content}
+The search for resources is constitutive for the process of confinement in the
+course of the genesis of the system that is to be developed from the pure
+functionality of the ideal machine.  This corresponds to Altshuller's first
+law of systemic development.
+\begin{block}{Altshuller's Law of the Completeness of the Parts of a System}
+  The necessary condition for the viability of a technical system is the
+  existence of the main parts of the system {\bf and} their minimal
+  functionality (i.e. viability -- HGG).
+\end{block}
+\vfill
+
+However, the thing viewed with the magnifying glass as a connection of place
+and content remains a "dead body", because "a living being has no parts"
+(Shchedrovitsky).
+
+\end{frame}
+
+\begin{frame}{Connecting Systems. The Operational Dimension}
+It is of little use to dissect a living frog in order to see how place and
+content are to be combined, since you cannot study the blood flow in its veins
+this way.
+
+It is not enough that the plug fits into the socket, the socket must also
+"have power in it". 
+
+Beyond the connection of place and content an operational process dimension is
+essential for a living system.  Shchedrovitsky develops that as a \emph{second
+  concept of a system}.  This cannot be explained here.
+
+We are dealing with a typical phenomenon of a modern society, in which the
+electricity comes from the socket and the milk from the shop.  The division of
+labour in such a modern mode of production leads to the emergent phenomenon of
+social unity and stratification of the reproduction of infrastructural
+conditions.
+
+\end{frame}
+
+\begin{frame}{Connecting Systems. The Operational Dimension}
+
+The existence, reliability and robustness (resilience) of such an
+infrastructure has a significant influence on the way people organise their
+daily lives.
+
+With the insight into ever more complex interrelationships, a concept of
+resources as "anything in or around the system that is not being used to its
+maximum potential" (Mann, Salamatov), which focuses on the \emph{exploitation}
+of resources, becomes increasingly counterproductive and has to be replaced by
+a concept of resources with socio-culturally institutionalised forms of
+\emph{resource management} at its center.
+
+\end{frame}
+
+\begin{frame}{The Concept of a Resource and the Mode of Production}
+
+\begin{block}{Thesis:}
+  The concept of resource exploitation is a characteristic feature of all
+  existing so far forms of a capitalist mode of production.
+\end{block}
+
+It manifests a fundamental contradiction of socio-cultural development:
+without such exploitation we would not have reached the current state of
+technology, but at the same time we undermine our own conditions of existence.
+
+My historical optimism says that it is nevertheless precisely these means of
+increasing conceptual penetration of ever increasingly complex
+interrelationships by which this trend can be stopped and eventually reversed.
+
+\end{frame}
+
+\begin{frame}{The Global Scope of Local Action}
+The formulated contradiction is of a global, planetary dimension that cannot
+be solved by the regional disposition of individual power groups over
+exploitable resources.  The division of the world into spheres of influence
+thus becomes obsolete insofar as in each of these spheres of influence, the
+transition to a different form of using resources must be organised to avoid a
+global environmental collapse of the resources used by mankind in the long
+run.
+
+TRIZ systemic evolution trends of increasing coordination, controllability and
+dynamisation refer not only to \emph{system-internal development lines}, but
+also to the coordination \emph{between} systems which are operated by
+independent third parties.
+
+Qualifying the infrastructural framework, for example, of the power supply
+system as "supersystem" does not take into account the relations of
+\emph{mutual interdependency} in such a modern industrial mode of production.
+
+\end{frame}
+
+\end{document}

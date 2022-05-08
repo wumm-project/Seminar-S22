@@ -2,7 +2,7 @@
 
 ## Short Announcement
 
-* __Theme:__   On the Notion of a Resource. Part 2
+* __Theme:__ Resources and systemic concepts of first and second kind
 * __Presenter:__ Hans-Gert Gräbe
 
 ## Abstract

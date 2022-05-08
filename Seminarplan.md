@@ -157,14 +157,17 @@ reading:
 - [26.04.](2022-04-26/README.md) On the notion of a resource. (Gräbe) 
 - [03.05.](2022-05-03/README.md) Resources and systemic concepts of first and
   second kind (Gräbe)
-- 10.05. P-TRIZ (Gräbe)
+- [10.05.](2022-05-10/README.md) P-TRIZ (Gräbe)
 - 17.05. No seminar
-- 24.05. Victor Jüttner: Measurement Standards
-- 31.05. Lukas Gehrke: Psychological Inertia
-- 07.06. 
-- 14.06. Immanuel von Detten: Contradiction Elimination
-- 21.06. Carsten Lehmann: Trimmen
-- 28.06. Cecilia Graiff: Knowledge
+- [24.05.](2022-05-24/README.md) Victor Jüttner: Measurement Standards
+- [31.05.](2022-05-31/README.md) Lukas Gehrke: Psychological Inertia
+- [07.06.](2022-06-07/README.md) 
+- [14.06.](2022-06-14/README.md) Immanuel von Detten: Contradiction
+  Elimination 
+- [21.06.](2022-06-21/README.md) Carsten Lehmann: Trimming
+- [28.06.](2022-06-28/README.md) Cecilia Graiff: Knowledge
 - 05.07. No seminar. [Leipzig Data Week](https://dataweek.de/)
 - 12.07.
-- 15.07. Optional: Interdisciplinary Workshop "Business TRIZ and Eco-Guidelines" 
+
+- 15.07. Optional: Interdisciplinary Workshop "Business Models, TRIZ and
+  Eco-Guidelines"
