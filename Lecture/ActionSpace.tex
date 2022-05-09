@@ -3,21 +3,19 @@
 \usepackage[main=english,ngerman]{babel}
 \usepackage[utf8]{inputenc}
 
-\myfootline{System Modelling and Semantic Web -- Winter Term 2021}{Hans-Gert
+\myfootline{System Modelling and Semantic Web -- Summer Term 2022}{Hans-Gert
   Gräbe}
-
-\newcommand{\ueberschrift}[1]{\begin{center}\bf #1\end{center}}
 
 \title{Modelling Sustainable Systems\\ and Semantic Web\\[6pt]
   Systemic Structures and Action Spaces
   \vskip1em}
 
-\subtitle{Lecture in the Module 10-202-2309\\ for Master Computer Science}
+\subtitle{Lecture in the Module 10-202-2312\\ for Master Computer Science}
 
 \author{Prof. Dr. Hans-Gert Gräbe\\
 \url{http://www.informatik.uni-leipzig.de/~graebe}}
 
-\date{November 2021}
+\date{May 2022}
 \begin{document}
 
 {\setbeamertemplate{footline}{}
@@ -42,12 +40,14 @@ common multiples of the eigentimes of the components.
 
 \begin{frame}{Systemic Structures}
 Of particular interest is the context in which fast-moving components are
-embedded in a slow-moving system. In this case, two clearly different
-dimensions of reduction to "essentials" arise: The external context can be
-considered largely static in the analysis of the components, while in the
-analysis of the external context, the behaviour of the components can be
-reduced to a statistical mean in which "chaotic noise" averages out and thus
-becomes irrelevant for the modelling at the level of the slow-moving system.
+embedded in a slow-moving system (short term vs. long term goals).
+
+In this case, two clearly different dimensions of reduction to "essentials"
+arise: The external context can be considered largely static in the analysis
+of the components, while in the analysis of the external context, the
+behaviour of the components can be reduced to a statistical mean in which
+"chaotic noise" averages out and thus becomes irrelevant for the modelling at
+the level of the slow-moving system.
 
 \end{frame}
 
@@ -81,27 +81,32 @@ becomes irrelevant for the modelling at the level of the slow-moving system.
     \draw[->] (A1) to[bend right] (A0) ;
     \draw[->] (A0) to[bend right] (A2) ;
     \draw[->] (A2) to[bend right] (A0) ;
-    \end{tikzpicture}\\[2em] Workflow Organisation
+    \end{tikzpicture}\\[2em] Operational Organisation
   \end{minipage}
 \end{frame}
 
 \begin{frame}{Systemic Structures}
 
-Spatial structures can be composed immersively, temporal structures can be
-projected submersively onto different time scales through Fourier
-transformations.
+Systemic structures have both a spatial (eigenspaces) and a temporal
+(eigentimes) resolution.
 
-The temporal structures considered determine the reduction dimension and thus
-select the processes that are "essential" for the systemic context; the
-spatial structure of the flows of energy, matter and information moved in the
-process determines the spatial extent of the systemic context.
+The \emph{temporal resolution} determines the reduction dimension and thus
+select the processes that are "essential" for the \emph{dynamics} of the
+systemic context.
 
-This does not only apply to models of technical or business systems but ...
+The \emph{spatial resolution} of the flows of energy, matter and information
+determines the \emph{spatial extent} of the systemic context.
+
+Systems can be held together by their dynamics or form explicit boundaries
+that functionally separate inside and outside.
+
+This does not only apply to types of models of technical or business systems
+but ...
 \end{frame}
 
 \begin{frame}{Systemic Structures}
 
-  ... typically structures also models of socio-economic systems ...
+  ... is also typical for types of models of socio-economic systems ...
   \begin{center}
     \includegraphics[width=.6\textwidth]{images/Holling-1.png}
 
@@ -228,7 +233,8 @@ This definition is too narrow for a concept of cooperate action.
     \includegraphics[width=\textwidth]{images/DI-1.png}
   \end{minipage}\hfill
   \begin{minipage}{.55\textwidth}
-    \ueberschrift{Private and Cooperative Action}
+    \begin{center}\bf      Private and Cooperative Action    \end{center}
+
     \begin{itemize}
     \item Art of living versus dealing with a structured world in a structured
       way

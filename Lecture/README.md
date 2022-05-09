@@ -120,7 +120,6 @@ __Learning Objectives:__
 __Slides:__
 * [Organisations as Systems](Organisations.pdf)
 
-
 ## May 5: Systems and Sustainability
 
 __Additional Reading__:
@@ -150,6 +149,9 @@ __Learning Objectives__:
 * Interlinking of system developments. Coevolution.
 * The concept of action spaces.
 * World and reality. World as reality _for us_. Action.
+
+__Slides:__
+* [Spaces of Action](ActionSpace.pdf)
 
 ## May 19: Digital Spaces of Action
 
