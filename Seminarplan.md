@@ -133,7 +133,7 @@ _organisation_ see the handout (Graebe 2022b).
 
 8. Measurement Standards (pp. 353 ff) - Victor Jüttner
 
-9. Resources (pp. 463 ff)
+9. Resources (pp. 463 ff) - Mohammed Kheir Alawa
 
 10. Knowledge (pp. 484 ff) - Cecilia Graiff
 
@@ -161,13 +161,12 @@ reading:
 - 17.05. No seminar
 - [24.05.](2022-05-24/README.md) Victor Jüttner: Measurement Standards
 - [31.05.](2022-05-31/README.md) Lukas Gehrke: Psychological Inertia
-- [07.06.](2022-06-07/README.md) 
+- [07.06.](2022-06-07/README.md) Eco-Guidelines (Gräbe)
 - [14.06.](2022-06-14/README.md) Immanuel von Detten: Contradiction
   Elimination 
 - [21.06.](2022-06-21/README.md) Carsten Lehmann: Trimming
 - [28.06.](2022-06-28/README.md) Cecilia Graiff: Knowledge
 - 05.07. No seminar. [Leipzig Data Week](https://dataweek.de/)
-- 12.07.
-
+- [12.07.](2022-07-12/README.md) Mohammed Kheir Alawa: Resources
 - 15.07. Optional: Interdisciplinary Workshop "Business Models, TRIZ and
   Eco-Guidelines"
