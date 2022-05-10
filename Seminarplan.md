@@ -58,6 +58,13 @@ written in English.
 * Carin Lindskog (2018). Exploitation and Exploration in Business Process
   Management – An exploratory paper. CEUR Workshop Proceedings, pp. 405-414.
 
+
+Can the choice of eco-design principles affect products’ success?
+
+* Lorenzo Maccioni, Yuri Borgianni, Daniela C.A. Pigosso (2019). Can the
+  choice of eco-design principles affect products’ success?  Design Science,
+  vol. 5, e25. <http://dx.doi.org/10.1017/dsj.2019.24>
+
 * Darrell Mann (2007). Hands-On Systematic Innovation for Business and
   Management.  IFR Press.
   - <https://store.systematic-innovation.com/books/ebooks/>
@@ -70,9 +77,17 @@ written in English.
 
 * Howard Smith (2006). From CIO to CPO via BPM. A CSC Whitepaper. 
 
-* Howard Smith (2006). P-TRIZ. Part 1-9.  In particular Part 3.
+* Howard Smith (2006). P-TRIZ. Part 1-11.  In particular Part 3.
   - <http://www.bptrends.com/publicationfiles/04-06-COL--P-TRIZ-3-Smith.pdf>
-  
+
+* Davide Russo, Malte Schöfer, Giacomo Bersano (2015).  Supporting
+  ECO-innovation in SMEs by TRIZ Eco-guidelines. Procedia Engineering 131, pp.
+  831–839.
+
+* Davide Russo, Christian Spreafico (2020). TRIZ-Based Guidelines for
+  Eco-Improvement. Sustainability, 2020.
+  <http://dx.doi.org/10.3390/su12083412>
+
 * Ian Sommerville (2015). Software Engineering.  
 
 * Valeri Souchkov (2010).  TRIZ and Systematic Business Model Innovation.  In:
