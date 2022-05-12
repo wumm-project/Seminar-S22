@@ -2,11 +2,7 @@
 
 ## Short Announcement
 
-* __Theme:__   Psychological Inertia
-* __Presenter:__ Lukas Gehrke
+* __Theme:__   offen
+* __Presenter:__ 
 
 ## Abstract
-
-tba
-
-(Mann-2007, pp. 60-82, 545 ff)

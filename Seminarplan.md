@@ -156,7 +156,7 @@ _organisation_ see the handout (Graebe 2022b).
 
 12. Trimming (pp. 514 ff) - Carsten Lehmann
 
-13. Psychological Inertia (pp. 60-82, 545 ff) - Lukas Gehrke
+13. Psychological Inertia (pp. 60-82, 545 ff)
 
 14. Subversion Analysis (pp. 564 ff)
 
@@ -175,7 +175,7 @@ reading:
 - [10.05.](2022-05-10/README.md) P-TRIZ (Gräbe)
 - 17.05. No seminar
 - [24.05.](2022-05-24/README.md) Victor Jüttner: Measurement Standards
-- [31.05.](2022-05-31/README.md) Lukas Gehrke: Psychological Inertia
+- [31.05.](2022-05-31/README.md) 
 - [07.06.](2022-06-07/README.md) Eco-Guidelines (Gräbe)
 - [14.06.](2022-06-14/README.md) Immanuel von Detten: Contradiction
   Elimination 
