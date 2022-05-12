@@ -13,18 +13,14 @@
 * Raphael Capurro, Peter Fleissner, Wolfgang Hofkirchner (2000). Is a unified
   theory of information feasible? A Trialogue.
   - <http://www.capurro.de/trialog.htm>
-* Frank W. Geels, Johan Schot (2007). Typology of Sociotechnical Transition
-  Pathways. In: Research Policy 36 (2007), 399–417.
-  - <https://doi.org/10.1016/j.respol.2007.01.003>
 * Hans-Gert Gräbe (2020-1). Man and its technical systems (in German).  LIFIS
   Online.
   - <http://dx.doi.org/10.14625/graebe_20200519>
 * Hans-Gert Gräbe (2020-2). TRIZ and transformations of socio-technical and
   socio-ecological systems (in German). LIFIS Online.
   - <http://dx.doi.org/10.14625/graebe_20200627>
-* Hans-Gert Gräbe, Ken P. Kleemann (2020-3). Seminar Systemtheorie.
-  Universität Leipzig. Wintersemester 2019/20 (in German).  Rohrbacher
-  Manuskripte, Heft 22. ISBN 9783752620023.
+* Hans-Gert Gräbe, Ken P. Kleemann (2020-3). Seminar Systemtheorie (in
+  German).  Rohrbacher Manuskripte, Heft 22. ISBN 9783752620023.
 * C.S. Holling (2001). Understanding the Complexity of Economic, Ecological,
   and Social Systems. In: Ecosystems (2001) 4, 390–405.
   - <https://www.esf.edu/cue/documents/Holling_Complexity-EconEcol-SocialSys_2001.pdf>
@@ -146,9 +142,14 @@ __Additional Reading__: (Stalder-2016)
 __Learning Objectives__:
 * Ubiquity of systemic structures.
 * Development of systemic structures.
-* Interlinking of system developments. Coevolution.
+* Summary on central notions introduced so far
+  * System, systemic structure, action space
+  * Analysis, synthesis, evaluation - three phases of schematisation
 * The concept of action spaces.
 * World and reality. World as reality _for us_. Action.
+* Data as specific form of description.
+* Data as a link between world and reality.
+* Data as a form of cooperative practices of people as subjects.
 
 __Slides:__
 * [Spaces of Action](ActionSpace.pdf)
@@ -160,23 +161,19 @@ __Literature__: (Schetsche-2006)
 __Additional Reading__: (Stalder-2016)
 
 __Learning Objectives__:
-* Summary on central notions introduced so far
-  * System, systemic structure, action space
-  * Analysis, synthesis, evaluation - three phases of schematisation
-* Data as specific form of description.
-* Data as a link between world and reality.
-* Data as a form of cooperative practices of people as subjects.
 * Digital Universe and digital transformation.
 * Acting in Digital Action Spaces.
-* Concepts _digital universe_ and _digital identity_.
-
-## June 02: Digital Action Spaces. Internet Basics. RDF Basics. 
-
-__Learning Objectives__:
 * Concepts _digital universe_ and _digital identity_.
 * The role of the concept of identity in a civil bourgeois society. 
 * Authentication and authorisation as socio-technical processes.
 * Digital identities and roles
+
+__Slides:__
+* [Digital Spaces of Action](DigitalActionSpace.pdf)
+
+## June 02: Internet Basics. RDF Basics. 
+
+__Learning Objectives__:
 * Internet Basics
 * The OSI 7-layer model
 * Management of IPs and computer names
