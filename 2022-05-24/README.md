@@ -25,4 +25,10 @@ The strategies mentioned in Darrell Mann's text are closely related to the
 Class 4 standards of TRIZ Substance-Field (SF) modelling.
 
 Literature:
-- (Mann-2007, pp. 353 ff)x
+- (Mann-2007, pp. 353 ff)
+
+## Material
+
+- [Handout](Handout.pdf)
+
+
