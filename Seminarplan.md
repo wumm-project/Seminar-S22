@@ -175,7 +175,8 @@ reading:
 - [10.05.](2022-05-10/README.md) P-TRIZ (Gräbe)
 - 17.05. No seminar
 - [24.05.](2022-05-24/README.md) Victor Jüttner: Measurement Standards
-- [31.05.](2022-05-31/README.md) 
+- [31.05.](2022-05-31/README.md) Simon Johanning: Energy system model vision
+  for business strategy assessment at municipal level
 - [07.06.](2022-06-07/README.md) Eco-Guidelines (Gräbe)
 - [14.06.](2022-06-14/README.md) Immanuel von Detten: Contradiction
   Elimination 
@@ -183,5 +184,7 @@ reading:
 - [28.06.](2022-06-28/README.md) Cecilia Graiff: Knowledge
 - 05.07. No seminar. [Leipzig Data Week](https://dataweek.de/)
 - [12.07.](2022-07-12/README.md) Mohammed Kheir Alawa: Resources
-- 15.07. Optional: Interdisciplinary Workshop "Business Models, TRIZ and
-  Eco-Guidelines"
+
+- [15.07.](http://www.dorfwiki.org/wiki.cgi?HansGertGraebe/LeipzigerGespraeche/2022-07-15)
+  Optional: Interdisciplinary Workshop "Systematic Innovation, Sustainability
+  and Eco-Design"
