@@ -3,7 +3,7 @@
 \usepackage[english]{babel}
 \usepackage[utf8]{inputenc}
 
-\myfootline{System Modelling and Semantic Web -- Winter Term 2021}{Hans-Gert
+\myfootline{System Modelling and Semantic Web -- Summer Term 2022}{Hans-Gert
   Gräbe}
 
 \def\lt{\texttt{<}}
@@ -16,12 +16,12 @@
   RDF Basics
   \vskip1em}
 
-\subtitle{Lecture in the Module 10-202-2309\\ for Master Computer Science}
+\subtitle{Lecture in the Module 10-202-2312\\ for Master Computer Science}
 
 \author{Prof. Dr. Hans-Gert Gräbe\\
 \url{http://www.informatik.uni-leipzig.de/~graebe}}
 
-\date{November 2021}
+\date{June 2022}
 \begin{document}
 
 {\setbeamertemplate{footline}{}
@@ -52,18 +52,18 @@ Language is full of implicit assumptions. An example:\vspace{-1em}
 \begin{frame}{RDF Basics. Example}
 
   {\small\tt \begin{tabbing}\hskip2em\=\kill
-    @prefix w21: {\lt}http://od.fmi.uni-leipzig.de/w21/{\gt} .\\
+    @prefix lv: {\lt}http://od.fmi.uni-leipzig.de/lv/{\gt} .\\
     @prefix od: {\lt}http://od.fmi.uni-leipzig.de/model/{\gt}.\\
     @prefix rdfs: {\lt}http://www.w3.org/2000/01/rdf-schema\#{\gt}.\\
     @prefix odr: {\lt}http://od.fmi.uni-leipzig.de/rooms/{\gt}.\\
     @prefix odp: {\lt}http://od.fmi.uni-leipzig.de/personal/{\gt}.\\[4pt]
 
-    w21:BIS.SemanticWeb.1\+\\
+    lv:BIS.SemanticWeb.1\+\\
     rdf:type	od:English , od:LV , od:Vorlesung ;\\
     rdfs:label	"Modelling Substainable Systems ... " ;\\
-    od:beginsAt	"11:15" ;\\
+    od:beginsAt	"9:15" ;\\
     od:dayOfWeek	"donnerstags" ;\\
-    od:endsAt	"12:45" ;\\
+    od:endsAt	"10:45" ;\\
     od:locatedAt	odr:online ;\\
     od:servedBy	odp:Graebe\_HansGert ;\\
     od:hasCType	"synchron" .
@@ -81,18 +81,18 @@ Resolution in three-word sentences
 \end{center}
 
   {\small\tt \begin{tabbing}
-    w21:BIS.SemanticWeb.1 rdf:type od:Vorlesung .\\
-    w21:BIS.SemanticWeb.1 rdfs:label	"Modelling ... " .\\
-    w21:BIS.SemanticWeb.1 od:beginsAt	"11:15" .\\
-    w21:BIS.SemanticWeb.1 od:dayOfWeek	"donnerstags" .\\
-    w21:BIS.SemanticWeb.1 od:endsAt	"12:45" .\\
-    w21:BIS.SemanticWeb.1 od:locatedAt	odr:online .\\
-    w21:BIS.SemanticWeb.1 od:servedBy	odp:Graebe\_HansGert .\\
-    w21:BIS.SemanticWeb.1 od:hasCType	"synchron" .
+    lv:BIS.SemanticWeb.1 rdf:type od:Vorlesung .\\
+    lv:BIS.SemanticWeb.1 rdfs:label	"Modelling ... " .\\
+    lv:BIS.SemanticWeb.1 od:beginsAt	"9:15" .\\
+    lv:BIS.SemanticWeb.1 od:dayOfWeek	"donnerstags" .\\
+    lv:BIS.SemanticWeb.1 od:endsAt	"10:45" .\\
+    lv:BIS.SemanticWeb.1 od:locatedAt	odr:online .\\
+    lv:BIS.SemanticWeb.1 od:servedBy	odp:Graebe\_HansGert .\\
+    lv:BIS.SemanticWeb.1 od:hasCType	"synchron" .
   \end{tabbing}}
 
-  SPARQL-Schnittstelle für weitere Anfragen
-  \url{http://od.fmi.uni-leipzig.de:8892/sparql}
+  Another example:
+  \url{http://leipzig-data.de/info/}\\ (Tab "MINT-Kataloge") 
 \end{frame}
 \begin{frame}{RDF Basics and the Internet of Things}
   \ueberschrift{Industry 4.0 and the Internet of Things}
@@ -146,25 +146,7 @@ Resolution in three-word sentences
   \item Pattern search as a powerful concept for analyzing such sets of
     sentences. SPARQL as query language.
   \end{itemize}
-\end{frame}
-\begin{frame}{RDF Basics. Example of a SPARQL Query}
-Example of a request to the SPARQL endpoint
-\url{http://od.fmi.uni-leipzig.de:8892/sparql}
-
-Returns information about all teaching events (\texttt{od:LV}) with URI prefix
-BIS
-{\small\tt \begin{tabbing}\hskip1em\=\kill
-  PREFIX od: {\lt}http://od.fmi.uni-leipzig.de/model/{\gt}\\
-  SELECT distinct ?l ?name? ?d ?b\\ 
-  from {\lt}http://od.fmi.uni-leipzig.de/w21/{\gt}\\
-  WHERE \{\+\\
-    ?l a od:LV .\\
-    ?l rdfs:label ?name .\\
-    ?l od:beginsAt ?b .\\
-    ?l od:dayOfWeek ?d .\\
-    filter regex(?l, 'BIS') .\-\\
-  \}
-\end{tabbing}}
+  SPARQL cannot be discussed here. 
 \end{frame}
 \begin{frame}{RDF Basics. Different Notations}
   \begin{itemize}
@@ -207,8 +189,6 @@ Sentences are arranged following patterns:
 \item[3)] Other patterns are possible, SPARQL as the general standard
   query language for pattern search in RDF sets of sentences.
 \end{itemize}
-See the file \textbf{Queries.txt} in the github Repo (with comments in
-German).
 \end{frame}
 \begin{frame}{RDF -- Descriptions of Descriptions}
 \begin{itemize}
@@ -267,10 +247,10 @@ German).
 \item \emph{Resource Descriptions:} Return on a HTTP request a useful piece of
   information in RDF format that can be combined with others such information
   units.
-\item Operate an \emph{RDF Triple Stores} and \emph{SPARQL endpoints} as part
-  of a worldwide distributed Data storage infrastructure,
-  e.g. \url{http://od.fmi.uni-leipzig.de/} (note that only the SPARQL endpoint
-  is publicly accessible).
+\item Operate an \emph{RDF Triple Stores} and a \emph{SPARQL endpoint}, e.g.
+  the RDF Store behind \url{http://leipzig-data.de/info/index.php} and the
+  Endpoint \url{http://leipzig-data.de:8890/sparql} as part of a worldwide
+  distributed Data storage infrastructure.
 \item SPARQL as language for (distributed) queries.
 \end{itemize}
 \end{frame}

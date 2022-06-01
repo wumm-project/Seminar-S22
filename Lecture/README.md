@@ -191,6 +191,11 @@ __Literature__:
 * Open Data Support (2013). Trainingsmodul 1.3 Einführung in RDF & SPARQL.
   * [RDF-Einfuehrung.pdf](http://www.informatik.uni-leipzig.de/~graebe/Material/RDF-Einfuehrung.pdf)
 
+__Slides:__
+* [Digital Spaces of Action](DigitalActionSpace.pdf)
+* [Internet Basics](InternetBasics.pdf)
+* [RDF Basics](RDF.pdf)
+
 ## June 09: Modelling Conceptual Worlds. The Giant Global Graph. 
 
 __Learning Objectives__:
@@ -279,4 +284,6 @@ __Slides:__
 * [History of the .NET project](DotNet.pdf)
 * [Open Culture](OpenCulture.pdf)
 
-## July 15: Optional: Interdisciplinary Block Seminar
+## July 15: Optional: Interdisciplinary Workshop "Systematic Innovation, Sustainability and Eco-Design"
+
+* <http://mint-leipzig.de/2022-07-15.html>
