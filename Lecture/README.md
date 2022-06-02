@@ -165,40 +165,29 @@ __Learning Objectives__:
 * Acting in Digital Action Spaces.
 * Concepts _digital universe_ and _digital identity_.
 * The role of the concept of identity in a civil bourgeois society. 
-* Authentication and authorisation as socio-technical processes.
-* Digital identities and roles
 
 __Slides:__
 * [Digital Spaces of Action](DigitalActionSpace.pdf)
 
-## June 02: Internet Basics. RDF Basics. 
+## June 02: Digital Identities. Internet Basics.  
 
 __Learning Objectives__:
+* Authentication and authorisation as socio-technical processes.
+* Digital identities and roles
 * Internet Basics
 * The OSI 7-layer model
 * Management of IPs and computer names
-* RDF basics: URI, namespace, subject, predicate, object.
-* RDF concepts. RDF graphs, pattern search, SPARQL query language.
-* RDF Tools. RDF Stores, SPARQL Endpoints
-
-__Literature__:
-* Hans-Gert Gräbe, Thomas Riechert, Michael Martin (2011). OD.FMI –
-  Engineering operativ-administrativer Daten für die universitäre Lehre.
-  Manuskript, September 2011.
-  * <http://www.informatik.uni-leipzig.de/~graebe/Texte/delfi-11.pdf>
-* Hans-Gert Gräbe (2007-2020). Das OD.FMI Projekt. 
-  * <http://www.informatik.uni-leipzig.de/~graebe/Forschung/EEE/ODQuelle.html>
-* Open Data Support (2013). Trainingsmodul 1.3 Einführung in RDF & SPARQL.
-  * [RDF-Einfuehrung.pdf](http://www.informatik.uni-leipzig.de/~graebe/Material/RDF-Einfuehrung.pdf)
 
 __Slides:__
 * [Digital Spaces of Action](DigitalActionSpace.pdf)
 * [Internet Basics](InternetBasics.pdf)
-* [RDF Basics](RDF.pdf)
 
-## June 09: Modelling Conceptual Worlds. The Giant Global Graph. 
+## June 09: RDF Basics. Modelling Conceptual Worlds. The Giant Global Graph. 
 
 __Learning Objectives__:
+* RDF basics: URI, namespace, subject, predicate, object.
+* RDF concepts. RDF graphs, pattern search, SPARQL query language.
+* RDF Tools. RDF Stores, SPARQL Endpoints
 * Conceptual worlds and ontologies
 * Modelling of conceptual worlds as part of the modelling of technical systems. 
 * Modelling of shared conceptual worlds as cooperative social process
@@ -209,6 +198,14 @@ __Learning Objectives__:
   Initiative
 
 __Literature__:
+* Hans-Gert Gräbe, Thomas Riechert, Michael Martin (2011). OD.FMI –
+  Engineering operativ-administrativer Daten für die universitäre Lehre.
+  Manuskript, September 2011.
+  * <http://www.informatik.uni-leipzig.de/~graebe/Texte/delfi-11.pdf>
+* Hans-Gert Gräbe (2007-2020). Das OD.FMI Projekt. 
+  * <http://www.informatik.uni-leipzig.de/~graebe/Forschung/EEE/ODQuelle.html>
+* Open Data Support (2013). Trainingsmodul 1.3 Einführung in RDF & SPARQL.
+  * [RDF-Einfuehrung.pdf](http://www.informatik.uni-leipzig.de/~graebe/Material/RDF-Einfuehrung.pdf)
 * Open Data Support (2013). Trainingsmodul 1.2 Linked Data.
   * [RDF-Einfuehrung.pdf](http://www.informatik.uni-leipzig.de/~graebe/Material/LinkedData-Einfuehrung.pdf)
 * Marc Zobrist (2018). Ontologien und Datenmodelle. 
