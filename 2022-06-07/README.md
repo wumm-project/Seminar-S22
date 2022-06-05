@@ -2,7 +2,7 @@
 
 ## Short Announcement
 
-* __Theme:__   Eco-Guidelines
+* __Theme:__   Business Model Patterns and Sustainability
 * __Presenter:__ Hans-Gert Gräbe
 
 ## Abstract
@@ -17,7 +17,7 @@ paths much earlier if the established industrial mode of production which is
 the basis of our prosperity will be continued and further expanded.
 
 In contrast to other globalisation processes such as, e.g., the implementation
-of Intellectual Property Rightd, these processes do not originate and were
+of Intellectual Property Rights, these processes do not originate and were
 driven by individual interest groups, but have the _cooperative action_ of an
 inherently global "thinking" of a networked, interdisciplinary science as
 their basis. The problematisation was initiated and formed by international
@@ -33,9 +33,9 @@ With the 17 Sustainable Development Goals (SDG) adopted in 2015 by the UN, the
 politicisation of this issue has reached a new dimension, as these goals
 anchor long-term goals of necessary changes with today's cooperate actions.
 The anchoring of these goals as a "Triple Bottom Line: Planet - People -
-Profit" (source) in socio-economic debates at the same time reveals massive
-contradictory dimensions in the inclusion of ecological (planet) and social
-(people) goals in economic processes.
+Profit" (Elkington 1997) in socio-economic debates at the same time reveals
+massive contradictory dimensions in the inclusion of ecological (planet) and
+social (people) goals in economic processes.
 
 In the seminar, approaches will be presented and discussed on how such
 contradictions can be mapped in Business Models, how they can be solved in
@@ -64,3 +64,7 @@ of an institutionalisation of approved cooperative action.
 * Davide Russo, Christian Spreafico (2020).  TRIZ-Based Guidelines for
   Eco-Improvement. Sustainability 2020, 12, 3412.
   <https://doi.org/10.3390/su12083412>
+
+## Material
+
+- [Handout](Handout.pdf)

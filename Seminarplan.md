@@ -58,9 +58,6 @@ written in English.
 * Carin Lindskog (2018). Exploitation and Exploration in Business Process
   Management – An exploratory paper. CEUR Workshop Proceedings, pp. 405-414.
 
-
-Can the choice of eco-design principles affect products’ success?
-
 * Lorenzo Maccioni, Yuri Borgianni, Daniela C.A. Pigosso (2019). Can the
   choice of eco-design principles affect products’ success?  Design Science,
   vol. 5, e25. <http://dx.doi.org/10.1017/dsj.2019.24>

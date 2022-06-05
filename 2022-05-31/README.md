@@ -14,7 +14,6 @@
   assessment at municipal level
   - <https://econpapers.repec.org/paper/zbwiirmco/022018.htm>
 
-
 ## Notes from the Chat
 
 - You only examine "real" energy companies, not pure "market players" like
