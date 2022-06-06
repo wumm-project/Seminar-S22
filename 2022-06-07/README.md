@@ -68,3 +68,4 @@ of an institutionalisation of approved cooperative action.
 ## Material
 
 - [Handout](Handout.pdf)
+- [Slides](Slides.pdf)
