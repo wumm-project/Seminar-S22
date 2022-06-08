@@ -211,6 +211,10 @@ __Literature__:
 * Marc Zobrist (2018). Ontologien und Datenmodelle. 
   * <https://histhub.ch/ontologien-und-datenmodelle/>
 
+__Slides:__
+* [RDF Basics](RDF.pdf)
+* [The Linked Open Data World](LOD.pdf)
+
 ## June 16: Data and Information. Storytelling, Conceptualisation, Information and Language
 
 __Learning Objectives__:
