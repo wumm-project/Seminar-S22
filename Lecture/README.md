@@ -242,6 +242,10 @@ __Additional Reading__:
 __Learning Objectives__:
 * Storytelling and action
 
+__Slides:__
+* [Storytelling and Language](Storytelling.pdf)
+* [Knowledge](Knowledge.pdf)
+
 ## June 23: Knowledge and Action
 
 __Literature__:
