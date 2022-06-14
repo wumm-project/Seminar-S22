@@ -127,35 +127,35 @@ _organisation_ see the handout (Graebe 2022b).
 
 ### Problem Definition
 
-1. System Operator (pp. 84 ff)
+4. System Operator (pp. 84 ff)
 
-2. Problem Explorer (pp. 105 ff)
+5. Problem Explorer (pp. 105 ff)
 
-3. Function and Attribute Analysis (pp. 122 ff)
+6. Function and Attribute Analysis (pp. 122 ff)
 
-4. S-Curve Analysis (pp. 148 ff)
+7. S-Curve Analysis (pp. 148 ff)
 
-5. Ideality (pp. 164 ff and p. 533 ff)
+8. Ideality (pp. 164 ff and p. 533 ff)
 
-6. Perception Mapping (pp. 184 ff.)
+9. Perception Mapping (pp. 184 ff.)
 
 ### Problem Solving Tools
 
-7. Contradiction Elimination (pp. 337 ff) - Immanuel von Detten
+12. Contradiction Elimination (pp. 337 ff) - Immanuel von Detten
 
-8. Measurement Standards (pp. 353 ff) - Victor Jüttner
+13. Measurement Standards (pp. 353 ff) - Victor Jüttner
 
-9. Resources (pp. 463 ff) - Mohammed Kheir Alawa
+15. Resources (pp. 463 ff) - Mohammed Kheir Alawa
 
-10. Knowledge (pp. 484 ff) - Cecilia Graiff
+16. Knowledge (pp. 484 ff) - Cecilia Graiff
 
-11. Re-Focus/Re-Frame (pp. 500 ff)
+17. Re-Focus/Re-Frame (pp. 500 ff)
 
-12. Trimming (pp. 514 ff) - Carsten Lehmann
+18. Trimming (pp. 514 ff) - Carsten Lehmann
 
-13. Psychological Inertia (pp. 60-82, 545 ff)
+19. Psychological Inertia (pp. 60-82, 545 ff)
 
-14. Subversion Analysis (pp. 564 ff)
+20. Subversion Analysis (pp. 564 ff)
 
 There are two more lengthy chapters that are recommended for additional
 reading:
@@ -176,7 +176,7 @@ reading:
   for business strategy assessment at municipal level
 - [07.06.](2022-06-07/README.md) Eco-Guidelines (Gräbe)
 - [14.06.](2022-06-14/README.md) Immanuel von Detten: Contradiction
-  Elimination 
+  Elimination
 - [21.06.](2022-06-21/README.md) Carsten Lehmann: Trimming
 - [28.06.](2022-06-28/README.md) Cecilia Graiff: Knowledge
 - 05.07. No seminar. [Leipzig Data Week](https://dataweek.de/)
