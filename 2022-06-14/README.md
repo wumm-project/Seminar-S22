@@ -42,7 +42,7 @@ Chapter 12. (Mann-2007, pp. 337 ff)
 ## Material
 
 - [Handout](Handout.pdf)
-
+- [Slides](Slides.pdf)
 
 ## From the Chat
 
