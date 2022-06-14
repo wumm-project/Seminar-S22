@@ -42,3 +42,49 @@ Chapter 12. (Mann-2007, pp. 337 ff)
 ## Material
 
 - [Handout](Handout.pdf)
+
+
+## From the Chat
+
+In the (preceding) chapter 11, "compromise elimination" is also intensively
+discussed and the resolution of _technical contradictions_ is considered
+there. The large volume of the chapter stems from the description of the 31
+general parameters and the 40 solution principles (inventive principles).
+
+For conflict resolution as discussed in chapter 12 a distinction between
+_action parameter_ (e.g., personalisation) and _evaluation parameters_ (e.g.,
+reach and richness) should be made.
+
+Slide 4: The contradiction is in the _model_ (and the resulting design of
+practice), hence may be due to a _specific_ reduction to essentials that is
+inappropriate for the problem.
+
+Slide 6: Darrell Mann only considers action parameters with 0-1 values
+(Boolean quantities), but this also works with parameters with larger value
+ranges.  This plays a bigger role in technical applications, in business
+contexts there seems to be only such 0-1 parameters (A and (not A)).
+
+Slide 8: Koltze/Souchkov (p. 106) considers as points 3 and 4
+- Separation in the structure (4 sub-strategies)
+- Separation by change of condition (5 sub-strategies)
+
+and subdivides these as indicated (separation in space or time are not
+subdivided).  This is also associated there with the 76 Inventive Standards,
+which are not considered in Darrell Mann. "Transition to alternative system"
+is not considered there.  It would be interesting to cross-check all that with
+Darrell Mann's book.
+
+Slide 13: The sub-points come largely from technical TRIZ and would have to be
+"creatively" transferred to the business context.  There is a recent work
+(Souchkov 2022) on this (besides ch. 11 from the book)
+https://wumm-project.github.io/Texts/BusinessPrinciples-en.pdf
+
+Slide 15: Indeed, this is presented inversely in other sources.  But Darrell
+Mann is (mentally) always about "reducing" resources, so the closer to zero
+the better.
+
+Question: slide 8 - "transition to alternative system", are there examples for
+this?
+
+Answer: Yes, this is underpinned by four sub-strategies in the book, but they
+are probably largely oriented towards the 10 development trends.
