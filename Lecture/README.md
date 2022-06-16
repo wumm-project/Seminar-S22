@@ -211,10 +211,6 @@ __Literature__:
 * Marc Zobrist (2018). Ontologien und Datenmodelle. 
   * <https://histhub.ch/ontologien-und-datenmodelle/>
 
-__Slides:__
-* [RDF Basics](RDF.pdf)
-* [The Linked Open Data World](LOD.pdf)
-
 ## June 16: Data and Information. Storytelling, Conceptualisation, Information and Language
 
 __Learning Objectives__:
@@ -242,53 +238,7 @@ __Additional Reading__:
 __Learning Objectives__:
 * Storytelling and action
 
-__Slides:__
-* [Storytelling and Language](Storytelling.pdf)
-* [Knowledge](Knowledge.pdf)
+<strong>The lecture was cancelled due to lacking listeners.</strong>
 
-## June 23: Knowledge and Action
-
-__Literature__:
-* Berger, Luckmann (1969/1994): The Social Construction of Reality.  In
-  German: Die gesellschaftliche Konstruktion der Wirklichkeit: eine Theorie
-  der Wissenssoziologie. Fischer Taschenbuch Verlag. ISBN 978-3-596-26623-4.
-
-__Learning Objectives__:
-* Information and language
-* Storytelling and Digital Change
-* What is Knowledge
-* Knowledge practices
-
-## June 30: On a theory of Cooperative action
-
-__Learning Objectives__:
-* Knowledge and cooperative action
-* Cooperative practices and their development
-* Cooperative practices and cooperate systems of meaning
-* On a theory of cooperative action based on a systemic approach
-* Conditions of possibility of action in civil society 
-* Cooperative action. An example - the [OEIS](http://oeis.org/)
-
-## July 07: Economic network structures 
-
-__Learning Objectives__:
-* Basic forms of capitalist enterprises and their relationship to the concepts
-  of innovation, ingenuity and intellectual property in the digital
-  transformation
-* Conditionalities and necessity of Open Culture
-* Open Culture and infrastructure development
-
-## July 14: The History of the .NET Project. Formation of an Open Culture
-
-__Learning Objectives__:
-* The .NET Project as an example for the formation of an Open Culture
-* Services and business models under the conditions of Open Culture
-* On the historical process of unfolding an Open Culture
-
-__Slides:__
-* [History of the .NET project](DotNet.pdf)
-* [Open Culture](OpenCulture.pdf)
-
-## July 15: Optional: Interdisciplinary Workshop "Systematic Innovation, Sustainability and Eco-Design"
-
-* <http://mint-leipzig.de/2022-07-15.html>
+Slides of the lecture delivered in the winter term 2021/22 are available at 
+<http://www.informatik.uni-leipzig.de/~graebe/skripte/Folien-W21.zip>
