@@ -19,3 +19,7 @@ functionality but also its operating conditions.
 ## Literature
 
 Chapter 18. (Mann-2007, pp. 514 ff)
+
+## Material
+
+- [Handout](Handout.pdf)
