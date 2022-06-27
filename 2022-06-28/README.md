@@ -25,3 +25,8 @@ Architects_ as a newly emerging professional group.
 ## Literature
 
 Chapter 16. (Mann-2007, pp. 484 ff)
+
+## Material
+
+- [Handout](Handout.pdf)
+- [Slides](Slides.pdf)
