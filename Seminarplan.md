@@ -166,22 +166,18 @@ reading:
 
 - [19.04.](2022-04-19/README.md) Kick-off Meeting. Introduction to the seminar
   topic.  (Gräbe)
-- [26.04.](2022-04-26/README.md) On the notion of a resource. (Gräbe) 
+- [26.04.](2022-04-26/README.md) Hans-Gert Gräbe: On the notion of a resource. 
 - [03.05.](2022-05-03/README.md) Resources and systemic concepts of first and
   second kind (Gräbe)
-- [10.05.](2022-05-10/README.md) P-TRIZ (Gräbe)
+- [10.05.](2022-05-10/README.md) Hans-Gert Gräbe: P-TRIZ
 - 17.05. No seminar
 - [24.05.](2022-05-24/README.md) Victor Jüttner: Measurement Standards
 - [31.05.](2022-05-31/README.md) Simon Johanning: Energy system model vision
   for business strategy assessment at municipal level
-- [07.06.](2022-06-07/README.md) Eco-Guidelines (Gräbe)
+- [07.06.](2022-06-07/README.md) Hans-Gert Gräbe: Eco-Guidelines
 - [14.06.](2022-06-14/README.md) Immanuel von Detten: Contradiction
   Elimination
 - [21.06.](2022-06-21/README.md) Carsten Lehmann: Trimming
-- [28.06.](2022-06-28/README.md) Cecilia Graiff: Knowledge
 - 05.07. No seminar. [Leipzig Data Week](https://dataweek.de/)
-- [12.07.](2022-07-12/README.md) Mohammed Kheir Alawa: Resources
-
-- [15.07.](http://www.dorfwiki.org/wiki.cgi?HansGertGraebe/LeipzigerGespraeche/2022-07-15)
-  Optional: Interdisciplinary Workshop "Systematic Innovation, Sustainability
-  and Eco-Design"
+- [12.07.](2022-07-12/README.md) Hans-Gert Gräbe: Resilience, Data, Metadata
+- [19.07.](2022-07-19/README.md) Cecilia Graiff: Knowledge

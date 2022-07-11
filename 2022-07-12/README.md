@@ -2,22 +2,31 @@
 
 ## Short Announcement
 
-* __Theme:__   Resources
-* __Presenter:__ Mohammed Kheir Alawa
+* __Theme:__   Resilience, Data, Metadata
+* __Presenter:__ Hans-Gert Gräbe
 
 ## Abstract
 
-The concept of resources is largely underexposed in TRIZ in contrast to
-developed engineering domains where concrete specifications of resources as
-well as questions of availability and management of resource pools in a
-cross-company context (such as, e.g., the availability of chips in the
-automotive industry) play a greater role. Darrell Mann's explanations remain
-on the level of a rather general concept of resources of availabilities
-without addressees, whereas today, especially in the B2B sector with ever more
-refined supply chain structures, cross-company resource flows with
-well-defined qualitative and quantitative characteristics are gaining in
-importance.
+Resilience is a systemic concept that focuses on the stability of a systemic
+development context. Data-based monitoring is an important tool of resilience
+management. However, resilience of a system depends on its external conditions
+of existence and thus on the relationship of the system to one or more other
+neighbouring systems, each with its own semantics. Resilience management in
+socio-cultural ecosystems must therefore be able to evaluate data from
+subsystems appropriately and “translate” it into its own semantics. The
+metadata to be generated in this process is semantic-aware, as it transports
+semantic aspects of the subsystem into the upper system and thus make it
+available to the emergent functions developing there. The evaluation of this
+metadata at the level of the upper system leads to new data, which in turn
+unfold its effect in the subsystems as semantic-aware metadata.
 
-## Literature
+In the presentation conceptual aspects of the development of semantics at
+different systemic levels and its impact on generation and use of metadata in
+a system to access and manage data collections in subsystems are discussed.
 
-Chapter 15. (Mann-2007, pp. 463 ff)
+__Literature:__
+
+* Hans-Gert Gräbe (2022). Semantic-Aware Metadata and Resilience of
+  Socio-Cultural Ecosystems
+  ([pdf](https://hg-graebe.de/EigeneTexte/DW-22.pdf))
+* [Slides](https://hg-graebe.de/EigeneTexte/DW-22-Folien.pdf)
