@@ -1,9 +1,11 @@
 *~
 *.aux
+*.bcf
 *.log
 *.dvi
 *.toc
 *.nav
+*.run.xml
 *.snm
 *.out
 *.bbl
